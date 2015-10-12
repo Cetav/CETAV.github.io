@@ -1,0 +1,112 @@
+// 
+// Footer 
+//
+
+footer{
+	background: $color3;
+  border-top: 1px solid $color1;
+	color: $color2;
+	padding: 30px 0 0;
+ 	
+  h4{
+		margin: 2px 0 20px 45px;
+		padding-bottom: 3px;
+	}
+
+  div:nth-child(3){
+    h4{
+      margin-left: 0;
+    }
+  }
+
+  p{
+    @include font-size(14);
+  }
+
+}
+
+.btn {
+    font-size: 14px;
+    text-decoration: none;
+    color: $color1;
+    background-color: $color3;
+    height: 100%;
+    text-align: center;
+    padding: 12px 12px;
+    margin: 15px auto;
+    border: 1px solid $color1;
+  
+  &:hover {
+      background-color: $color1;
+      color: $color3;
+      cursor: pointer;
+  }
+}
+
+.copyright{
+  background: $color1;
+  color: $color3;
+  height: 60px;
+  margin-top: 30px;
+  padding: 20px 0;
+
+  p{
+    display: inline-block;
+    margin: 0;
+  }
+
+  a{
+    color: $color3;
+    @include font-size(14);
+    float: right;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer-icon{
+  float: left
+}
+
+.footer-info div{
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+}
+
+.icons-rs{
+	padding-left: 0;
+}
+
+.login ul{
+  margin-top: 60px;
+  padding-left: 0;
+  
+  li a{
+    color: #fff;
+    font-size: 16px;
+  }
+
+  li:first-child{
+    border-right: 1px solid #fff;
+    padding-right: 15px;
+  }
+}
+
+.logo-parque{
+	height: auto;
+  margin-top: 20px;
+	width: 25%;
+}
+
+.logo-ministerio{
+  border-left: 1px solid $color2;
+  float: right;
+  margin-right: 35px;
+  margin-top: 30px;
+  padding-left: 35px;
+}
+
+

@@ -1,0 +1,332 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body, html {
+  box-sizing: border-box;
+  color: #848286;
+  font-family: "Open Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Hind", Arial, sans-serif bold;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-size: 70px;
+  font-size: 7rem; }
+
+h2 {
+  font-size: 48px;
+  font-size: 4.8rem; }
+
+h3 {
+  font-size: 32px;
+  font-size: 3.2rem; }
+
+h4 {
+  font-size: 24px;
+  font-size: 2.4rem; }
+
+h5 {
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+h6 {
+  font-size: 12px;
+  font-size: 1.2rem; }
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px; }
+
+nav ul li:last-child {
+  margin-right: 0; }
+
+ul li {
+  list-style: none; }
+
+section {
+  padding: 70px 0; }
+
+/* =========== RS ICONS =========== */
+.face-icon {
+  background: url(../img/logos/face-icon.png) no-repeat;
+  background-size: 100% auto;
+  height: 30px;
+  margin-top: 30px;
+  text-indent: -9999px;
+  width: 30px; }
+  .face-icon:hover {
+    cursor: pointer; }
+
+.vimeo-icon {
+  background: url(../img/logos/vimeo-icon.png) no-repeat;
+  background-size: 100% auto;
+  height: 35px;
+  text-indent: -9999px;
+  width: 35px; }
+  .vimeo-icon:hover {
+    cursor: pointer; }
+
+.max-content {
+  margin: 0 auto;
+  max-width: 1000px;
+  overflow: auto; }
+
+.section-title {
+  color: #ff8f00;
+  display: inline-block;
+  font-size: 48px;
+  font-size: 4.8rem;
+  width: 50%; }
+
+nav ul li a {
+  color: #848286; }
+  nav ul li a:hover {
+    border-bottom: 1px solid; }
+
+.drop-down {
+  background: rgba(29, 29, 29, 0.85);
+  display: none;
+  padding: 20px 0;
+  position: absolute;
+  text-align: left;
+  width: 180px; }
+  .drop-down li {
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 6%; }
+  .drop-down a {
+    color: #fff; }
+
+.main-nav {
+  font-size: 14px;
+  margin: -8px 0;
+  text-align: right; }
+  .main-nav li:hover .drop-down {
+    display: block; }
+  .main-nav li a {
+    font-weight: bold; }
+
+.nav-content {
+  display: inline-block;
+  float: right;
+  width: 55%; }
+
+.searchBox {
+  float: right;
+  margin: 13px 0 0 20px;
+  overflow: hidden; }
+  .searchBox label {
+    -moz-transition: -moz-transform 0.3s;
+    -o-transition: -o-transform 0.3s;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    display: inline-block;
+    float: right;
+    cursor: pointer; }
+  .searchBox .txt {
+    -moz-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s;
+    outline: 0;
+    width: 0;
+    height: 18px;
+    border: none;
+    float: left; }
+
+.searchBox .chkbox {
+  width: 0;
+  height: 0;
+  position: absolute; }
+
+.searchBox .chkbox:checked ~ label {
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
+
+.searchBox .chkbox:checked ~ .txt {
+  width: 200px;
+  border-bottom: 1px solid #aaa;
+  padding: 0 10px; }
+
+.secundary-nav {
+  font-size: 12px;
+  margin-top: 14px;
+  text-align: right; }
+
+header {
+  background: url(../img/header1.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px; }
+
+.logo-cetav {
+  float: left;
+  background: url(../img/logos/logo-cetav.png) no-repeat center;
+  background-size: contain;
+  height: auto;
+  margin-top: -20px;
+  text-indent: -9999px;
+  width: 100px; }
+
+.top-header {
+  background: rgba(255, 255, 255, 0.95);
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.12); }
+
+/* =========== Content Header =========== */
+.content-header {
+  padding-top: 22.5%; }
+  .content-header h2 {
+    background-color: rgba(29, 29, 29, 0.1);
+    color: #fff;
+    text-align: center; }
+  .content-header span {
+    color: #ff8f00; }
+
+.aliados {
+  background: #f9f9f9; }
+  .aliados ul {
+    padding-left: 0; }
+
+.info-section {
+  float: right;
+  font-size: 18px;
+  width: 50%; }
+
+.logos-aliados {
+  margin-top: 60px; }
+  .logos-aliados li {
+    display: inline-block;
+    height: 90px;
+    margin-top: 60px;
+    text-indent: -9999px;
+    width: 24.5%; }
+
+.logoAnimacion {
+  background: url(../img/logos/logo-animation.png) no-repeat center;
+  background-size: contain; }
+
+.logoCamtic {
+  background: url(../img/logos/logo-camtic.png) no-repeat center;
+  background-size: contain; }
+
+.logoCenfotec {
+  background: url(../img/logos/logo-cenfotec.png) no-repeat center;
+  background-size: contain; }
+
+.logoIna {
+  background: url(../img/logos/logo-ina.png) no-repeat center;
+  background-size: contain; }
+
+.logoEmpleate {
+  background: url(../img/logos/logo-empleate.png) no-repeat center;
+  background-size: contain; }
+
+.logoMtss {
+  background: url(../img/logos/logo-mtss.png) no-repeat center;
+  background-size: contain; }
+
+.logoGeek {
+  background: url(../img/logos/logo-geek.png) no-repeat center;
+  background-size: contain; }
+
+.logoComunidad {
+  background: url(../img/logos/logo-comunidad.png) no-repeat center;
+  background-size: contain; }
+
+footer {
+  background: #fff;
+  border-top: 1px solid #ff8f00;
+  color: #848286;
+  padding: 30px 0 0; }
+  footer h4 {
+    margin: 2px 0 20px 45px;
+    padding-bottom: 3px; }
+  footer div:nth-child(3) h4 {
+    margin-left: 0; }
+  footer p {
+    font-size: 14px;
+    font-size: 1.4rem; }
+
+.btn {
+  font-size: 14px;
+  text-decoration: none;
+  color: #ff8f00;
+  background-color: #fff;
+  height: 100%;
+  text-align: center;
+  padding: 12px 12px;
+  margin: 15px auto;
+  border: 1px solid #ff8f00; }
+  .btn:hover {
+    background-color: #ff8f00;
+    color: #fff;
+    cursor: pointer; }
+
+.copyright {
+  background: #ff8f00;
+  color: #fff;
+  height: 60px;
+  margin-top: 30px;
+  padding: 20px 0; }
+  .copyright p {
+    display: inline-block;
+    margin: 0; }
+  .copyright a {
+    color: #fff;
+    font-size: 14px;
+    font-size: 1.4rem;
+    float: right; }
+    .copyright a:hover {
+      text-decoration: underline; }
+
+.footer-icon {
+  float: left; }
+
+.footer-info div {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%; }
+
+.icons-rs {
+  padding-left: 0; }
+
+.login ul {
+  margin-top: 60px;
+  padding-left: 0; }
+  .login ul li a {
+    color: #fff;
+    font-size: 16px; }
+  .login ul li:first-child {
+    border-right: 1px solid #fff;
+    padding-right: 15px; }
+
+.logo-parque {
+  height: auto;
+  margin-top: 20px;
+  width: 25%; }
+
+.logo-ministerio {
+  border-left: 1px solid #848286;
+  float: right;
+  margin-right: 35px;
+  margin-top: 30px;
+  padding-left: 35px; }
+
+/*# sourceMappingURL=styles.css.map */

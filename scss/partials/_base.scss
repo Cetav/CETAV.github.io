@@ -1,0 +1,109 @@
+// 
+// base elements
+//
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, html{
+	box-sizing:border-box;
+	color: $color2;
+	font-family: $body;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $title;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	@include font-size(70);
+}
+
+h2{
+	@include font-size(48);
+}
+
+h3{
+	@include font-size(32);
+}
+
+h4{
+	@include font-size(24);
+}
+
+h5{
+	@include font-size(16);
+}
+
+h6{
+	@include font-size(12);
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px
+}
+
+
+nav ul li:last-child{
+	margin-right: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+section{
+	padding: 70px 0;
+}
+
+/* =========== RS ICONS =========== */
+.face-icon{
+	background: url(../img/logos/face-icon.png) no-repeat;
+	background-size: 100% auto;
+	height: 30px; 
+	margin-top: 30px;
+	text-indent: -9999px;
+	width: 30px;
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+.vimeo-icon{
+	background: url(../img/logos/vimeo-icon.png) no-repeat;
+	background-size: 100% auto;
+	height: 35px; 
+	text-indent: -9999px;
+	width: 35px;
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+.max-content{
+	margin: 0 auto;
+	max-width: $max-width;
+	overflow: auto;
+}
+
+.section-title{
+	color: $color1;
+	display: inline-block;
+	@include font-size(48);
+	width: 50%;
+}

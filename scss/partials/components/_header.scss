@@ -1,0 +1,41 @@
+header{
+	background: url(../img/header1.jpg) no-repeat center;
+	background-attachment: fixed;
+ 	background-size: cover;
+	height: 700px;
+}
+
+.logo-cetav{
+	float: left;
+	background: url(../img/logos/logo-cetav.png) no-repeat center;
+	background-size: contain;
+	height: auto;
+	margin-top: -20px;
+	text-indent: -9999px;
+	width: 100px;
+}
+
+.top-header{
+  	background: rgba(255, 255, 255, .95);
+	height: 70px;
+	position: fixed;
+  	width: 100%;
+  	z-index: 5;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.12);
+}
+
+/* =========== Content Header =========== */
+.content-header{
+	padding-top: 22.5%;
+
+	h2{
+		background-color: rgba(29,29,29,.1);
+		color: $color3;
+		text-align: center;
+	}
+
+	span{
+		color: $color1;
+	}
+}
+
