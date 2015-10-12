@@ -20,20 +20,22 @@ header{
 }
 
 .top-header{
-  	background: rgba(255, 255, 255, .95);
+  	background: $color3;
 	height: 70px;
 	position: fixed;
   	width: 100%;
   	z-index: 5;
-    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.1);
 }
 
 /* =========== Content Header =========== */
 .content-header{
 	padding-top: 22.5%;
+	.overlay {
+		background-color: rgba(29,29,29,.1);
+	}
 
 	h2{
-		background-color: rgba(29,29,29,.1);
 		color: $color3;
 		text-align: center;
 	}
@@ -42,4 +44,3 @@ header{
 		color: $color1;
 	}
 }
-

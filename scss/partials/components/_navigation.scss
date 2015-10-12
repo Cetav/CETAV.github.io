@@ -10,7 +10,13 @@ nav ul li a {
 }
 
 .drop-down{
-	background: rgba(29,29,29,0.85);
+  background-color: #1d1d1d;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.85)"; /*internet explorer 8 - */
+  filter: alpha(opacity=0.85); /* internet explorer */
+  -khtml-opacity: 0.85;      /* khtml, version anterior de safari */
+  -moz-opacity: 0.85;       /* firefox, mozilla, netscape */
+  opacity: 0.85;           /* safari, chrome, opera */
+
 	display: none;
 	padding: 20px 0;
 	position: absolute;
