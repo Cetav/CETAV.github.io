@@ -286,7 +286,7 @@
     float: right;
     width: 347px;
     height: 465px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.65);
     color: $color3;
     @include font-size(18);
 }
@@ -318,7 +318,6 @@
 .read_more {
     color: $color3;
     font-family: $body;
-    text-decoration-line: underline;
     text-decoration-color: $cursos;
     border-bottom: 2px solid $cursos;
 }
