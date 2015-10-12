@@ -2,4 +2,39 @@
 // Buttons
 //
 
+/* ===========  Buttons Free Courses =========== */
+.clear {
+    width: 293px;
+    margin: 50px 0;
+}
+
+.btn {
+    font-family: $body;
+    @include font-size(18);
+    text-decoration: none;
+    color: $color3;
+    background-color: transparent;
+    height: 100%;
+    text-align: center;
+    border: 1px solid $cursos;
+    @include border-radius(3px);
+}
+
+.btn:hover {
+    background-color: $cursos;
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn_course_1 {
+    padding: 12px 67px 12px 67px;   
+}
+
+.btn_course_2 {
+    padding: 12px 34px 12px 34px;
+}
+
 
