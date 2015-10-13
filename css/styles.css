@@ -513,7 +513,8 @@ nav ul li a {
 .searchBox .chkbox {
   width: 0;
   height: 0;
-  position: absolute; }
+  position: absolute;
+  display: none; }
 
 .searchBox .chkbox:checked ~ label {
   -moz-transform: rotate(-90deg);
