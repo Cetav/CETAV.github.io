@@ -7,13 +7,27 @@
   margin-top: 15px;
   line-height: 120%;
   width: 50%; }
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 38px;
+      font-size: 3.8rem;
+      margin-left: 8%; } }
+  @media (max-width: 1024px) {
+    .section-title {
+      margin-left: 8%; } }
 
 /* =========== Block initial text =========== */
 .text-intro {
   background-color: #F9F9F9;
-  height: 380px;
+  height: auto;
   font-size: 18px;
   font-size: 1.8rem; }
+  @media (max-width: 768px) {
+    .text-intro {
+      height: auto; } }
+  @media (max-width: 1024px) {
+    .text-intro {
+      height: auto; } }
 
 .main-title {
   width: 50%;
@@ -21,13 +35,35 @@
 
 .title-intro {
   width: 100%; }
+  @media (max-width: 768px) {
+    .title-intro {
+      font-size: 38px;
+      font-size: 3.8rem;
+      margin-top: 55px;
+      margin-left: 16%; } }
+  @media (max-width: 1024px) {
+    .title-intro {
+      margin-top: 55px;
+      margin-left: 16%; } }
 
 .main-text {
   width: 50%;
   float: right; }
+  @media (max-width: 768px) {
+    .main-text {
+      font-size: 16px;
+      font-size: 1.6rem;
+      margin-top: 15px;
+      padding-right: 8%; } }
+  @media (max-width: 1024px) {
+    .main-text {
+      padding-right: 8%; } }
 
 .main-text p {
   margin-top: 35px; }
+  @media (max-width: 768px) {
+    .main-text p {
+      margin-top: 15px; } }
 
 .read-more-about {
   color: #848286;
@@ -35,6 +71,9 @@
   float: right;
   margin-top: 30px;
   border-bottom: 2px solid #ff8f00; }
+  @media (max-width: 768px) {
+    .read-more-about {
+      margin-top: 12px; } }
 
 .read-more-about:hover {
   color: #ff8f00; }
@@ -58,6 +97,10 @@
   cursor: pointer;
   perspective: 800;
   position: relative; }
+  @media (max-width: 1024px) {
+    .course {
+      height: 250px;
+      width: 250px; } }
 
 .course-container {
   height: 300px;
@@ -68,6 +111,10 @@
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
+  @media (max-width: 1024px) {
+    .course-container {
+      height: 250px;
+      width: 250px; } }
 
 .course-container:hover {
   transform: rotateY(180deg); }
@@ -82,6 +129,10 @@
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   border-radius: 3px; }
+  @media (max-width: 1024px) {
+    .side {
+      height: 250px;
+      width: 250px; } }
 
 .back {
   transform: rotateY(180deg);
@@ -90,6 +141,10 @@
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   border-radius: 3px; }
+  @media (max-width: 1024px) {
+    .back {
+      height: 250px;
+      width: 250px; } }
 
 .sub-title {
   font-size: 28px;
@@ -250,6 +305,12 @@
   width: 1000px;
   margin: 0 auto;
   padding: 0; }
+  @media (max-width: 768px) {
+    .content-free-courses {
+      width: 100%; } }
+  @media (max-width: 1024px) {
+    .content-free-courses {
+      width: 100%; } }
 
 .description-free-courses {
   width: 50%;
@@ -444,6 +505,12 @@ section {
   max-width: 1000px;
   overflow: auto; }
 
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 nav ul li a {
   color: #848286; }
   nav ul li a:hover {
@@ -592,6 +659,18 @@ header {
 /* =========== Content Header =========== */
 .content-header {
   padding-top: 22.5%; }
+  @media (max-width: 1280px) {
+    .content-header {
+      width: 80%;
+      padding-top: 20.5%; } }
+  @media (max-width: 1024px) {
+    .content-header {
+      width: 80%;
+      padding-top: 24.5%; } }
+  @media (max-width: 768px) {
+    .content-header {
+      width: 55%;
+      padding-top: 30%; } }
   .content-header .overlay {
     background-color: rgba(29, 29, 29, 0.1); }
   .content-header h2 {
