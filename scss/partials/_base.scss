@@ -72,26 +72,36 @@ section{
 }
 
 /* =========== RS ICONS =========== */
-.face-icon{
-	background: url(../img/logos/face-icon.png) no-repeat;
-	background-size: 100% auto;
-	height: 30px; 
-	margin-top: 30px;
-	text-indent: -9999px;
-	width: 30px;
+.icons-rs li {
+	margin-right: 15px;
+}
+
+.icons-rs li a {
 	&:hover{
+		border-bottom: none;
+	}
+}
+.icon-rs{
+	fill: #fff;
+	text-decoration: none;
+}
+
+.facebook-icon{
+	height: 40px; 
+	margin-top: 20px;
+	width: 40px;
+	&:hover .icon-rs{
 		cursor: pointer;
+		fill: #4966a7;
 	}
 }
 
 .vimeo-icon{
-	background: url(../img/logos/vimeo-icon.png) no-repeat;
-	background-size: 100% auto;
-	height: 35px; 
-	text-indent: -9999px;
-	width: 35px;
-	&:hover{
+	height: 40px; 
+	width: 40px;
+	&:hover .icon-rs{
 		cursor: pointer;
+		fill: #17b3e8;
 	}
 }
 

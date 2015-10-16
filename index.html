@@ -10,8 +10,15 @@
 </head>
 <body>
 	<header id="header">
-		<div class="top-header">
-
+  <nav class="secundary-nav">
+        <ul class="max-content">
+          <li><a href="#">La institución</a></li>
+          <li><a href="#">Generaciones</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="#">Mi cuenta</a></li>
+        </ul>
+          </nav><!--END SECUNDARY NAV-->
+    <div class="top-header">
       <div class="max-content">
         <h1 class="logo-cetav"><a href="#">logo</a></h1>
         <div class="nav-content">
@@ -19,17 +26,9 @@
           <div class="searchBox">
             <input type="checkbox" id="chkbox" class="chkbox" />
             <label for="chkbox"><img src="img/search-1.png" alt="" /></label>
-            <input type="text" class="txt" placeholder="buscar"/> 
+            <input type="text" class="txt" placeholder="buscar"/>
           </div>
-          <nav class="secundary-nav">
-            <ul>
-              <li><a href="#">La institución</a></li>
-              <li><a href="#">Generaciones</a></li>
-              <li><a href="#">Noticias</a></li>
-              <li><a href="#">Mi cuenta</a></li>
-            </ul>
-          </nav><!--END SECUNDARY NAV-->
-    
+
           <nav class="main-nav">
             <ul>
               <li><a href="#header">Inicio</a></li>
@@ -58,17 +57,17 @@
           </nav><!--END MAIN NAV-->
         </div>
       </div><!--END MAX HEADER-->
-		</div><!--END TOP-HEADER-->
+    </div><!--END TOP-HEADER-->
 
     <div class="max-content content-header">
       <div class="overlay">
-        <h2>Somos</br>
+        <h2>Somos
           <span
              class="txt-rotate"
              data-period="1000"
              data-rotate='[ "Creatividad, Innovación y Tecnología." ]'></span>
         </h2>
-      </div>   
+      </div>
     </div><!--CONTENT HEADER-->
   </header><!--END HEADER-->
 
@@ -227,35 +226,52 @@
     <div class="max-content footer-info">
 
       <div>
-        <img class="footer-icon" src="img/map.png" alt="">
-        <h4>¿Cómo llegar?</h4>
+        <h5>¿Cómo llegar?</h5>
         <p>Parque la Libertad, 300 metros este y </br>100 metros norte del Palí de Fátima, Desamparados</p>
         <button class="btn-footer">Ver con Waze</button>
         <button class="btn-footer">Ver con Maps</button>
       </div>
 
       <div>
-      <img class="footer-icon" src="img/phone1.png" alt="">
-        <h4>Contacto</h4>
+        <h5>Contacto</h5>
         <p>Teléfono: 2276-9400 ext.2031</p>
         <p>E-mail: cetav@parquelalibertad.org</p>
         <nav>
           <ul class="icons-rs">
-            <li class="face-icon"><a href="#">face</a></li>
-            <li class="vimeo-icon"><a href="#">vimeo</a></li>
+            <li>
+              <a href="#">
+                <svg class="facebook-icon" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                    <path class="icon-rs" d="M256,0C114.609,0,0,114.609,0,256c0,141.391,114.609,256,256,256c141.391,0,256-114.609,256-256
+                      C512,114.609,397.391,0,256,0z M256,472c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z
+                      "/>
+                    <path class="icon-rs" d="M316.75,216.812h-44.531v-32.5c0-9.969,10.312-12.281,15.125-12.281c4.781,0,28.767,0,28.767,0v-43.859L283.141,128
+                      c-44.983,0-55.25,32.703-55.25,53.672v35.141H195.25V262h32.641c0,58.016,0,122,0,122h44.328c0,0,0-64.641,0-122h37.656
+                      L316.75,216.812z"/>
+                  </svg>    
+              </a></li>
+            <li class="vimeo-icon">
+              <a href="#">
+                <svg class="vimeo-icon" width="513px" height="513px" viewBox="0 0 513 513" style="enable-background:new 0 0 513 513;" xml:space="preserve">
+                  <g>
+                  <path class="icon-rs"  d="M256.5,0C114.833,0,0,114.833,0,256.5S114.833,513,256.5,513S513,398.167,513,256.5S398.167,0,256.5,0z M256.5,472.922
+                    c-119.53,0-216.422-96.893-216.422-216.422c0-119.53,96.892-216.422,216.422-216.422c119.53,0,216.422,96.892,216.422,216.422
+                    C472.922,376.029,376.03,472.922,256.5,472.922z"/>
+                  <path  class="icon-rs" d="M344.28,144.281c-32.61,0-58.113,21.104-69.15,60.822c12.022-5.699,33.848-8.673,35.554,11.178
+                    c1.724,19.867-28.445,71.248-41.689,71.248c-13.213,0-23.045-58.097-26.489-84.648c-3.413-26.583-9.55-55.859-34.552-55.859
+                    c-25.033,0-57.127,39.233-79.702,57.111l11.773,16.109c0,0,16.658-13.135,22.56-12.148c15.201,3.961,28.195,65.785,34.833,89.362
+                    c6.606,23.593,14.685,71.265,47.311,71.265c52.729,0,140.023-130.833,140.023-173.543
+                    C384.75,167.123,376.891,144.281,344.28,144.281z"/>
+                </svg>
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
 
       <div>
-        <h4>Somos parte del</h4>
+        <h5>Somos parte del</h5>
         <img class="logo-parque" src="img/logos/logo-parque.png" alt="logo parque la libertad">
         <img class="logo-ministerio" src="img/logos/logo-ministerio.png" alt="logo parque la libertad">
-      </div>
-    </div>
-    <div class="copyright">
-      <div class="max-content">
-        <p>Copyright</p>
       </div>
     </div>
   </footer>

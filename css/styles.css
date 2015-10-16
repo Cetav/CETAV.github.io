@@ -585,24 +585,30 @@ section {
   padding: 70px 0; }
 
 /* =========== RS ICONS =========== */
-.face-icon {
-  background: url(../img/logos/face-icon.png) no-repeat;
-  background-size: 100% auto;
-  height: 30px;
-  margin-top: 30px;
-  text-indent: -9999px;
-  width: 30px; }
-  .face-icon:hover {
-    cursor: pointer; }
+.icons-rs li {
+  margin-right: 15px; }
+
+.icons-rs li a:hover {
+  border-bottom: none; }
+
+.icon-rs {
+  fill: #fff;
+  text-decoration: none; }
+
+.facebook-icon {
+  height: 40px;
+  margin-top: 20px;
+  width: 40px; }
+  .facebook-icon:hover .icon-rs {
+    cursor: pointer;
+    fill: #4966a7; }
 
 .vimeo-icon {
-  background: url(../img/logos/vimeo-icon.png) no-repeat;
-  background-size: 100% auto;
-  height: 35px;
-  text-indent: -9999px;
-  width: 35px; }
-  .vimeo-icon:hover {
-    cursor: pointer; }
+  height: 40px;
+  width: 40px; }
+  .vimeo-icon:hover .icon-rs {
+    cursor: pointer;
+    fill: #17b3e8; }
 
 .max-content {
   margin: 0 auto;
@@ -717,11 +723,12 @@ nav ul li a {
 .nav-content {
   display: inline-block;
   float: right;
-  width: 64%; }
+  margin-top: 19px;
+  width: 75%; }
 
 .searchBox {
   float: right;
-  margin: 13px 0 0 20px;
+  margin: 8px 0 0 20px;
   overflow: hidden; }
   .searchBox label {
     -moz-transition: -moz-transform 0.3s;
@@ -760,11 +767,20 @@ nav ul li a {
   padding: 0 10px; }
 
 .secundary-nav {
+  background-color: #848286;
   font-size: 12px;
-  margin-top: 14px;
+  margin-top: 0;
+  padding: 5px 0;
   text-align: right; }
   .secundary-nav li a {
-    color: #848286; }
+    color: #fff; }
+    .secundary-nav li a:hover {
+      text-decoration: underline; }
+
+.fixed {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0; }
 
 /* ===========  Buttons Free Courses =========== */
 .clear {
@@ -905,9 +921,9 @@ nav ul li a {
 footer {
   background: #292929;
   color: #fff;
-  padding: 30px 0 0; }
-  footer h4 {
-    margin: 2px 0 20px 45px;
+  padding: 30px 0 30px; }
+  footer h5 {
+    margin: 2px 0 20px 0;
     padding-bottom: 3px; }
   footer div:nth-child(3) h4 {
     margin-left: 0; }
@@ -933,27 +949,6 @@ footer {
     background-color: #fff;
     color: #292929;
     cursor: pointer; }
-
-.copyright {
-  background: #ff8f00;
-  color: #fff;
-  height: 60px;
-  margin-top: 30px;
-  padding: 20px 0; }
-  .copyright p {
-    display: inline-block;
-    margin: 0; }
-  .copyright a {
-    color: #fff;
-    font-size: 14px;
-    font-size: 1.4rem;
-    float: right; }
-    .copyright a:hover {
-      text-decoration: underline; }
-
-.footer-icon {
-  float: left;
-  height: 32px; }
 
 .footer-info div {
   display: inline-block;
