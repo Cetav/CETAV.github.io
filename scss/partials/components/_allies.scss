@@ -9,6 +9,9 @@
 	float: right;
 	font-size: 18px;
 	width: 50%;
+    @media (max-width : 768px) {
+        @include font-size(16);
+    }
 }
 
 .logos-aliados{

@@ -4,20 +4,18 @@
 
 
 .section-title {  
-    display: inline-block;
-	color: $color1;
-	font-family: $titles sans-serif;
-	@include font-size(48);
-	margin-top: 15px;
-	line-height: 120%;
+    display: block;
+    color: $color1;
+    font-family: $titles sans-serif;
+    margin-top: 15px;
+    line-height: 120%;
     width: 50%;
-
-    @media (max-width : 768px) {
+    text-align: left;
+    @media (min-width: 768px){
         @include font-size(38);
-        margin-left: 8%;
     }
-    @media (max-width : 1024px) {
-        margin-left: 8%;
+    @media (min-width: 1024px){
+        @include font-size(48);
     }
 }
 
@@ -28,55 +26,31 @@
     background-color: $sections-body;
     height: auto;
     @include font-size(18);
-
-    @media (max-width : 768px) {
-        height: auto;
-    }
-    @media (max-width : 1024px) {
-        height: auto;
-    }
 }
 
 .main-title {
     width: 50%;
     display: inline-block;
-
 }
 
 .title-intro {
     width: 100%;
-
-    @media (max-width : 768px) {
-        @include font-size(38);
-        margin-top: 55px;
-        margin-left: 16%;
-    }
-    @media (max-width : 1024px) {
-        margin-top: 55px;
-        margin-left: 16%;
-    }
 }
 
 .main-text {
     width: 50%;
     float: right;
-
-    @media (max-width : 768px) {
-        @include font-size(16);
-        margin-top: 15px;
-        padding-right: 8%;
-    }
-    @media (max-width : 1024px) {
-        padding-right: 8%;
-    }
 }
 
 
 .main-text p{
     margin-top: 35px;
-
-    @media (max-width : 768px) {
-        margin-top: 15px;
+    @media (min-width: 768px){
+        margin-top: 0;
+        @include font-size(16);
+    }
+    @media (min-width: 1024px){
+        @include font-size(18);
     }
 }
 
@@ -86,9 +60,11 @@
     float: right;
     margin-top: 30px;
     border-bottom: 2px solid $color1;
-
-    @media (max-width : 768px) {
-        margin-top: 12px;
+    @media (min-width: 768px){
+        @include font-size(16);
+    }
+    @media (min-width: 1024px){
+        @include font-size(18);
     }
 }
 
@@ -98,6 +74,9 @@
 
 
 /* =========== Block courses =========== */
+.section-courses {
+    text-align: center;
+}
 
 .list-courses {
     padding: 0;
@@ -107,35 +86,38 @@
 .course{
     list-style: none;
     display: inline-block;
-    width: 33%;
     height: 300px;
-    margin: 30px 0;
     overflow: hidden;
      @include border-radius(3px);
     cursor: pointer;
     perspective: 800;
     position: relative;
-
-    @media (max-width : 1024px) {
-        height: 250px;
-        width: 250px;
+    @media (min-width: 480px){
+        width: 100%;
+    }
+    @media (min-width: 768px){
+        width: 45%;
+        margin: 30px 30px 30px 0;
+    }
+    @media (min-width: 1024px){
+        width: 30%;
+        margin: 30px 44px 30px 0;
     }
 }
 
+.course:last-child {
+    margin-right: 0;
+}
+
 .course-container {
+    width: 100%;
     height: 300px;
-    width: 300px;
     position: absolute;
     transform-style: preserve-3d;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-
-    @media (max-width : 1024px) {
-        height: 250px;
-        width: 250px;
-    }
 }
 
 .course-container:hover {
@@ -149,28 +131,23 @@
     overflow: hidden;
     width: 100%;
     @include border-radius(3px);
-
-    @media (max-width : 1024px) {
-        height: 250px;
-        width: 250px;
-    }
 }
 
 .back {
     transform: rotateY(180deg);
     background-color: #eee;
     @include border-radius(3px);
-
-    @media (max-width : 1024px) {
-        height: 250px;
-        width: 250px;
-    }
 }
 
 .sub-title {
-	@include font-size(28);
     color: $color3;
     line-height: 120%;
+    @media (min-width: 768px){
+        @include font-size(28);
+    }
+    @media (min-width: 1024px){
+        
+    }
 }
 
 .sub-title-course {
@@ -181,30 +158,54 @@
 }
 
 .opacity {
-	background-color: rgba(0, 0, 0, 0.5);
-	width: 100%;
-	height: 300px;
-	@include border-radius(3px);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 300px;
+    @include border-radius(3px);
+    overflow: hidden;
 }
 
 .btn-course {
-	@include border-radius(3px);
+    @include border-radius(3px);
+    font-family: $body;
+    text-align: center;
+    margin: 0 auto;
+    @media (min-width: 768px){
+        @include font-size(16);
+        padding: 12px 55px 12px 55px;
+    }
+    @media (min-width: 1024px){
+        @include font-size(18);
+        padding: 12px 67px 12px 67px;
+    }
+}
+
+.text-info-course {
+    font-family: $body;
+    text-align: center;
+    padding: 0 15px;
+    margin-top: 60px;
+    @media (min-width: 768px){
+        @include font-size(16);
+    }
+    @media (min-width: 1024px){
+        @include font-size(18);
+    }
 }
 
 /*side animation*/
 .side-animation {
-	background-image: url(../img/animacion.jpg);
-	width: 100%;
+    background-image: url(../img/animacion.jpg);
+    width: 100%;
     color: $animacion;
     @include border-radius(3px);
+    @media (min-width: 768px){
+        background-size: cover;
+    }
 }
 
 .text-animation {
-	@include font-size(18);
     color: $animacion;
-    padding: 0 15px;
-    margin-top: 80px;
-    text-align: center;
 }
 
 .clear-btn {
@@ -215,14 +216,10 @@
 }
 
 .btn-animation {
-    @include font-size(18);
     text-decoration: none;
     color: $animacion;
     background-color: transparent;
     height: 100%;
-    text-align: center;
-    padding: 12px 67px 12px 67px;
-    margin: 0 auto;
     border: 1px solid $animacion;
 }
 
@@ -233,21 +230,19 @@
 
 /*side web*/
 .side-web {
-	background-image: url(../img/web.jpg);
-	width: 100%;
+    background-image: url(../img/web.jpg);
+    width: 100%;
     @include border-radius(3px);
+    @media (min-width: 768px){
+        background-size: cover;
+    }
 }
 
 .text-web {
-    @include font-size(18);
     color: $web;
-    padding: 0 15px;
-    margin-top: 80px;
-    text-align: center;
 }
 
 .btn-web {
-    @include font-size(18);
     text-decoration: none;
     color: $web;
     background-color: transparent;
@@ -265,21 +260,19 @@
 
 /*side post*/
 .side-post {
-	background-image: url(../img/post.jpg);
-	width: 100%;
+    background-image: url(../img/post.jpg);
+    width: 100%;
     @include border-radius(3px);
+    @media (min-width: 768px){
+        background-size: cover;
+    }
 }
 
 .text-post {
-    @include font-size(18);
     color: $post;
-    padding: 0 15px;
-    margin-top: 80px;
-    text-align: center;
 }
 
 .btn-post {
-	@include font-size(18);
     text-decoration: none;
     color: $post;
     background-color: transparent;
@@ -325,14 +318,8 @@
     width: 1000px;
     margin: 0 auto;
     padding: 0;
-
-    @media (max-width : 768px) {
-        width: 100%;
-    }
-    @media (max-width : 1024px) {
-        width: 100%;
-    }
 }
+
 
 .description-free-courses {
     width: 50%;
@@ -449,7 +436,7 @@
 }
 
 .btn-service {
-    padding: 12px 67px 12px 67px;
+    padding: 12px 67px 12px 67px; 
 }
 
 /*estudio de render*/
