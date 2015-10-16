@@ -5,9 +5,11 @@
 /* ===========  Buttons Free Courses =========== */
 .clear {
     width: 293px;
-    margin: 50px 0;
-    @media (max-width : 768px) {
-        margin: 25px 0;
+    @media (min-width : 768px) {
+        margin: 50px 0;
+    }
+    @media (min-width: 1024px){
+        margin: 45px 0;
     }
 }
 
@@ -21,9 +23,12 @@
     text-align: center;
     border: 1px solid $cursos;
     @include border-radius(3px);
-    @media (max-width : 768px) {
+    @media (min-width: 768px){
         @include font-size(16);
-    }  
+    }
+    @media (min-width: 1024px){
+        @include font-size(18);
+    } 
 }
 
 .btn:hover {
@@ -36,17 +41,20 @@
 }
 
 .btn-course-1 {
-    padding: 12px 67px 12px 67px;
-    @media (max-width : 768px) {
+    @media (min-width: 768px){
         padding: 12px 62px 12px 62px;
-    }  
-}
-
-.btn-course-2 {
-    padding: 12px 34px 12px 34px;
-    @media (max-width : 768px) {
-        padding: 12px 34px 12px 34px;
+    }
+    @media (min-width: 1024px){
+        padding: 12px 67px 12px 67px;
     }
 }
 
+.btn-course-2 {
+    @media (min-width: 768px){
+        padding: 12px 34px 12px 34px;
+    }
+    @media (min-width: 1024px){
+        padding: 12px 35px 12px 35px;
+    }
+}
 

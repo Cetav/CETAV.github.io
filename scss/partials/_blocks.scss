@@ -44,12 +44,12 @@
 
 
 .main-text p{
-    margin-top: 35px;
     @media (min-width: 768px){
         margin-top: 0;
         @include font-size(16);
     }
     @media (min-width: 1024px){
+        margin-top: 10px;
         @include font-size(18);
     }
 }
@@ -58,13 +58,14 @@
     color: $color2;
     font-family: $body;
     float: right;
-    margin-top: 30px;
     border-bottom: 2px solid $color1;
     @media (min-width: 768px){
         @include font-size(16);
+        margin-top: 15px;
     }
     @media (min-width: 1024px){
         @include font-size(18);
+        margin-top: 30px;
     }
 }
 
@@ -146,7 +147,7 @@
         @include font-size(28);
     }
     @media (min-width: 1024px){
-        
+        @include font-size(30);
     }
 }
 
@@ -290,14 +291,30 @@
 
 /* =========== Free Courses =========== */
 .free-courses {
+    background: url(../img/curso1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 465px;
     margin: 30px 0;
     padding: 0;
-    background: url(../img/curso1.jpg) no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 0;
+    @media (min-width: 768px){
+        width: 100%;
+    }
+    @media (min-width: 1024px){
+        
+    }
+}
+
+.content-free-courses {
+    margin: 0 auto;
+    padding: 0 5px;
+    @media (min-width: 768px){
+        max-width: 730px;
+    }
+    @media (min-width: 1024px){
+        max-width: 960px;
+    }
 }
 
 .background-opacity {
@@ -306,20 +323,15 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/*descriton free courses*/
 
+
+/*descriton free courses*/
 .title-free-courses {
     color: $color3;
     padding: 30px 0 10px;
+    margin-bottom: 0;
     width: 100%;
 }
-
-.content-free-courses {
-    width: 1000px;
-    margin: 0 auto;
-    padding: 0;
-}
-
 
 .description-free-courses {
     width: 50%;
@@ -327,25 +339,35 @@
 }
 
 .description-free-courses .section-title{
-	color: $color3;
-	width: 100%;
+    color: $color3;
+    width: 100%;
 }
 
 .text-course-description {
-    @include font-size(18);
     font-family: $body;
     color: $color3;
     margin-top: 0;
+    @media (min-width: 768px){
+        @include font-size(16);
+    }
+    @media (min-width: 1024px){
+        @include font-size(18);
+    }
 }
 
 /*list free courses*/
 .content-new-courses {
     float: right;
-    width: 347px;
-    height: 465px;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.6);
     color: $color3;
-    @include font-size(18);
+    @media (min-width: 768px){
+        width: 320px;
+        height: 465px;
+    }
+    @media (min-width: 1024px){
+        width: 347px;
+        height: 465px;
+    }
 }
 
 .text-title-free-courses {
@@ -364,7 +386,18 @@
     width: 86%;
     list-style: none;
     margin: 18px auto;
+    font-family: $body;
 }
+
+.course-item p {
+    @media (min-width: 768px){
+        @include font-size(16);
+    }
+    @media (min-width: 1024px){
+        @include font-size(18);
+    }
+}
+
 
 .course-item hr {
     margin-top: 25px;
@@ -375,8 +408,14 @@
 .read-more {
     color: $color3;
     font-family: $body;
-    text-decoration-color: $cursos;
     border-bottom: 2px solid $cursos;
+    text-decoration: none;
+    @media (min-width: 768px){
+        @include font-size(16);
+    }
+    @media (min-width: 1024px){
+        @include font-size(18);
+    }
 }
 
 .read-more:hover {
@@ -388,6 +427,62 @@
     transition: all 0.3s;
 }
 
+
+/* ===========  Buttons Free Courses =========== */
+.clear {
+    width: 293px;
+    @media (min-width : 768px) {
+        margin: 50px 0;
+    }
+    @media (min-width: 1024px){
+        margin: 45px 0;
+    }
+}
+
+.btn {
+    font-family: $body;
+    @include font-size(18);
+    text-decoration: none;
+    color: $color3;
+    background-color: transparent;
+    height: 100%;
+    text-align: center;
+    border: 1px solid $cursos;
+    @include border-radius(3px);
+    @media (min-width: 768px){
+        @include font-size(16);
+    }
+    @media (min-width: 1024px){
+        @include font-size(18);
+    } 
+}
+
+.btn:hover {
+    background-color: $cursos;
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-course-1 {
+    @media (min-width: 768px){
+        padding: 12px 62px 12px 62px;
+    }
+    @media (min-width: 1024px){
+        padding: 12px 67px 12px 67px;
+    }
+}
+
+.btn-course-2 {
+    @media (min-width: 768px){
+        padding: 12px 34px 12px 34px;
+    }
+    @media (min-width: 1024px){
+        padding: 12px 35px 12px 35px;
+    }
+}
 
 
 /* =========== Services =========== */
@@ -433,10 +528,23 @@
     @include font-size(18);
     width: 80%;
     margin: 0 0 70px;
+    @media (min-width: 768px){
+        @include font-size(16);
+    }
+    @media (min-width: 1024px){
+        @include font-size(18);
+    }
 }
 
 .btn-service {
-    padding: 12px 67px 12px 67px; 
+    @media (min-width: 768px){
+        @include font-size(16);
+        padding: 12px 52px 12px 52px;
+    }
+    @media (min-width: 1024px){
+        @include font-size(18);
+        padding: 12px 67px 12px 67px;
+    }
 }
 
 /*estudio de render*/
