@@ -2,7 +2,7 @@
 // Navigation
 //
 nav ul li a {
-	color: $color2;
+	color: $color3;
  
   &:hover {
 	  border-bottom: 1px solid;
@@ -51,7 +51,7 @@ nav ul li a {
 .nav-content{
 	display: inline-block;
 	float: right;
-  width: 55%;
+  width: 63%;
 }
 
 .searchBox {
@@ -107,5 +107,8 @@ nav ul li a {
 	font-size: 12px;
 	margin-top: 14px;
   text-align: right;
+  li a{
+    color: $color2;
+  }
 }
 
