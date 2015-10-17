@@ -3,36 +3,42 @@
 //
 
 /* ===========  Buttons Free Courses =========== */
-.clear {
-    width: 293px;
-    @media (min-width : 768px) {
-        margin: 50px 0;
-    }
-    @media (min-width: 1024px){
-        margin: 45px 0;
-    }
-}
 
 .btn {
     font-family: $body;
     @include font-size(18);
     text-decoration: none;
     color: $color3;
-    background-color: transparent;
+    background-color: $cursos;
     height: 100%;
-    text-align: center;
-    border: 1px solid $cursos;
+    text-align: start;
+    color: $color4;
+    font-weight: bolder;
     @include border-radius(3px);
+    display: block;
+    padding: 14px 30px;
     @media (min-width: 768px){
         @include font-size(16);
     }
     @media (min-width: 1024px){
-        @include font-size(18);
+        @include font-size(16);
     } 
 }
 
+.btn:after {
+    content: "";
+    float: right;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+    border-color: transparent transparent transparent $color4;
+    margin-top: 5px;
+}
+
 .btn:hover {
-    background-color: $cursos;
+    background-color: #00acea;
+    border-color: #00acea;
     -webkit-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -41,20 +47,23 @@
 }
 
 .btn-course-1 {
+    width: 70%;
+    margin-bottom: 20px;
     @media (min-width: 768px){
-        padding: 12px 62px 12px 62px;
+        
     }
     @media (min-width: 1024px){
-        padding: 12px 67px 12px 67px;
+        
     }
 }
 
 .btn-course-2 {
+    width: 70%;
     @media (min-width: 768px){
-        padding: 12px 34px 12px 34px;
+        
     }
     @media (min-width: 1024px){
-        padding: 12px 35px 12px 35px;
+        
     }
 }
 

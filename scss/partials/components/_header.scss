@@ -30,27 +30,16 @@ header{
 
 /* =========== Content Header =========== */
 .content-header{
-	padding-top: 22.5%;
-
-    @media (max-width : 1280px) {
-    	width: 80%;
-		padding-top: 20.5%;
-    }
-    @media (max-width : 1024px) {
-		width: 80%;
-		padding-top: 24.5%;
-    }
-    @media (max-width : 768px) {
-		width: 55%;
-		padding-top: 30%;
-    }
+	padding-top: 18.5%;
 	.overlay {
 		background-color: rgba(29, 29, 29, 0.1);
+		padding: 40px;
 	}
 
 	h2{
 		color: $color3;
 		text-align: center;
+		line-height: 1.2;
 	}
 
 	span{
