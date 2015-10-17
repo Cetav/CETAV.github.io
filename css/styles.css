@@ -684,8 +684,6 @@ header {
 
 nav ul li a {
   color: #fff; }
-  nav ul li a:hover {
-    border-bottom: 1px solid; }
 
 .drop-down {
   background-color: #1d1d1d;
