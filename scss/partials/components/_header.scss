@@ -32,14 +32,22 @@ header{
 .content-header{
 	padding-top: 18.5%;
 	.overlay {
-		background-color: rgba(29, 29, 29, 0.1);
-		padding: 40px;
+		text-align: center;
 	}
+
+	@-webkit-keyframes typing { from { width: 0; } }
+	@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
 	h2{
 		color: $color3;
-		text-align: center;
-		line-height: 1.2;
+	}
+	h3 { 
+		@include font-size(48);
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		-webkit-animation: typing 4s steps(41, end),
+		           blink-caret .5s step-end infinite alternate;
 	}
 
 	span{
