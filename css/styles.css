@@ -440,11 +440,13 @@
   @media (min-width: 768px) {
     .info-services p {
       font-size: 16px;
-      font-size: 1.6rem; } }
+      font-size: 1.6rem;
+      margin: 0 0 90px; } }
   @media (min-width: 1024px) {
     .info-services p {
       font-size: 16px;
-      font-size: 1.6rem; } }
+      font-size: 1.6rem;
+      margin: 0 0 110px; } }
 
 .btn-service {
   font-family: "Open Sans", Arial, sans-serif;
@@ -797,9 +799,21 @@ nav ul li a {
 .btn-course-1 {
   width: 70%;
   margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    .btn-course-1 {
+      width: 80%; } }
+  @media (min-width: 1024px) {
+    .btn-course-1 {
+      width: 70%; } }
 
 .btn-course-2 {
   width: 70%; }
+  @media (min-width: 768px) {
+    .btn-course-2 {
+      width: 80%; } }
+  @media (min-width: 1024px) {
+    .btn-course-2 {
+      width: 70%; } }
 
 .aliados {
   background: #ececec; }
