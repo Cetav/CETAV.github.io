@@ -18,10 +18,10 @@
     @include border-radius(3px);
     display: block;
     padding: 14px 30px;
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         @include font-size(16);
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         @include font-size(16);
     } 
 }
@@ -50,20 +50,20 @@
 .btn-course-1 {
     width: 70%;
     margin-bottom: 20px;
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         width: 80%;
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         width: 70%;
     }
 }
 
 .btn-course-2 {
     width: 70%;
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         width: 80%;   
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         width: 70%;
     }
 }

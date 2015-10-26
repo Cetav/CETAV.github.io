@@ -3,15 +3,16 @@
    ======================= */
 
 html {
-  box-sizing: border-box;
-  font-size: 62.5%;
+  	box-sizing: border-box;
+  	font-size: 62.5%;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  	box-sizing: inherit;
 }
 
-body, html{
+body, 
+html {
 	box-sizing:border-box;
 	color: $color2;
 	font-family: $body;
@@ -19,37 +20,42 @@ body, html{
 	padding: 0;
 }
 
-a{
-  text-decoration: none;
+a {
+  	text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
 	font-family: $titles;
 	margin: 0;
 	padding: 0;
 }
 
-h1{
+h1 {
 	@include font-size(70);
 }
 
-h2{
+h2 {
 	@include font-size(48);
 }
 
-h3{
+h3 {
 	@include font-size(32);
 }
 
-h4{
+h4 {
 	@include font-size(24);
 }
 
-h5{
+h5 {
 	@include font-size(16);
 }
 
-h6{
+h6 {
 	@include font-size(12);
 }
 
@@ -59,7 +65,7 @@ nav ul li {
 }
 
 
-nav ul li:last-child{
+nav ul li:last-child {
 	margin-right: 0;
 }
 
@@ -67,7 +73,7 @@ ul li {
 	list-style: none;
 }
 
-section{
+section {
 	padding: 70px 0;
 }
 
@@ -78,35 +84,35 @@ section{
 }
 
 .icons-rs li a {
-	&:hover{
+	&:hover {
 		border-bottom: none;
 	}
 }
-.icon-rs{
+.icon-rs {
 	fill: #fff;
 	text-decoration: none;
 }
 
-.facebook-icon{
+.facebook-icon {
 	height: 40px; 
 	margin-top: 20px;
 	width: 40px;
-	&:hover .icon-rs{
+	&:hover .icon-rs {
 		cursor: pointer;
 		fill: #4966a7;
 	}
 }
 
-.vimeo-icon{
+.vimeo-icon {
 	height: 40px; 
 	width: 40px;
-	&:hover .icon-rs{
+	&:hover .icon-rs {
 		cursor: pointer;
 		fill: #17b3e8;
 	}
 }
 
-.max-content{
+.max-content {
 	margin: 0 auto;
 	max-width: $content;
 	overflow: auto;
@@ -116,15 +122,15 @@ section{
         
     } */
     /* Extra Small Devices, Phones */ 
-    @media (min-width : 480px) {
+    @media ( min-width : 480px ) {
     	max-width: 400px;
     }
     /* Small Devices, Tablets */
-    @media (min-width : 768px) {
+    @media ( min-width : 768px ) {
     	max-width: 730px;
     }
     /* Medium Devices, Desktops */
-    @media (min-width : 1024px) {
+    @media ( min-width : 1024px ) {
     	max-width: 960px;
     }
 	/* Large Devices, Wide Screens */

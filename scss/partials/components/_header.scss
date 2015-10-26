@@ -2,14 +2,14 @@
    Partials/Components/Header
    ======================= */
 
-header{
+header {
 	background: url(../img/prueba.jpg) no-repeat center;
 	background-attachment: fixed;
  	background-size: cover;
 	height: 700px;
 }
 
-.logo-cetav{
+.logo-cetav {
 	float: left;
 	background: url(../img/logos/logo-cetav.png) no-repeat center;
 	background-size: contain;
@@ -19,7 +19,7 @@ header{
 	width: 100px;
 }
 
-.top-header{
+.top-header {
   	background: $color4;
 	height: 70px;
 	position: fixed;
@@ -30,7 +30,7 @@ header{
 
 /* Content Header
    ========================================================================== */
-.content-header{
+.content-header {
 	padding-top: 18.5%;
 	.overlay {
 		text-align: center;
@@ -39,7 +39,7 @@ header{
 	@-webkit-keyframes typing { from { width: 0; } }
 	@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
-	h2{
+	h2 {
 		color: $color3;
 	}
 	h3 { 
@@ -47,11 +47,11 @@ header{
 		width: 100%;
 		white-space: nowrap;
 		overflow: hidden;
-		-webkit-animation: typing 4s steps(41, end),
-		           blink-caret .5s step-end infinite alternate;
+		-webkit-animation: typing 4s steps( 41, end ),
+		blink-caret .5s step-end infinite alternate;
 	}
 
-	span{
+	span {
 		color: $color1;
 	}
 }

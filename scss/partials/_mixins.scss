@@ -5,20 +5,17 @@
 /**
  * Border radius
  */
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+@mixin border-radius( $radius ) {
+  	-webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
 }
 
 /**
  * font-size mixin
  */
-@mixin font-size($size) {
-  font-size: $size + px;
-  font-size: ($size / 10) + rem;
+@mixin font-size( $size ) {
+  	font-size: $size + px;
+  	font-size: ( $size / 10 ) + rem;
 }
-
-/* Example
-   ========================================================================== */

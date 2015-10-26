@@ -2,99 +2,99 @@
    Partials/Components/Allies
    ======================= */
 
-.aliados{
+.aliados {
 	background: $sections-body;
-	h2{
+	h2 {
 		float:left;
 	}
-  ul{
-	 padding-left: 0;
-  }
+  	ul {
+	 	padding-left: 0;
+  	}
 }
 
 .section-title-allies {
-    @media (min-width : 768px) {
+    @media ( min-width : 768px ) {
         margin-top: 30px;
     }
-    @media (min-width : 1024px) {
+    @media ( min-width : 1024px ) {
         margin-top: 15px;
     }
 }
 
-.info-section{
+.info-section {
 	float: right;
 	width: 50%;
-    @media (min-width : 768px) {
+    @media ( min-width : 768px ) {
         @include font-size(16);
     }
-    @media (min-width : 1024px) {
+    @media ( min-width : 1024px ) {
         @include font-size(18);
     }
 }
 
 .info-section p {
-    @media (min-width : 768px) {
+    @media ( min-width : 768px ) {
         margin: 0;
     }
-    @media (min-width : 1024px) {
+    @media ( min-width : 1024px ) {
         margin: 0;
     }
 }
 
-.logos-aliados{
+.logos-aliados {
 	clear: both;
 	margin-top: 60px;
-	li{
+	li {
 		display: inline-block;
 		height: 90px;
 		margin-top: 60px;
 		text-indent: -9999px;	
 		float: left;
-	    @media (min-width : 768px) {
+	    @media ( min-width : 768px ) {
 	        width: 33%;
 	    }
-	    @media (min-width : 1024px) {
+	    @media ( min-width : 1024px ) {
 	        width: 24.5%;
 	    }
 	}
 }
 
-.logoAnimacion{
+.logoAnimacion {
 	background: url(../img/logos/logo-animation.png) no-repeat center;
 	background-size: contain;
 }
 
-.logoCamtic{
+.logoCamtic {
 	background: url(../img/logos/logo-camtic.png) no-repeat center;
 	background-size: contain;
 }
 
-.logoCenfotec{
+.logoCenfotec {
 	background: url(../img/logos/logo-cenfotec.png) no-repeat center;
 	background-size: contain;
 }
 
-.logoIna{
+.logoIna {
 	background: url(../img/logos/logo-ina.png) no-repeat center;
 	background-size: contain;
 }
 
-.logoEmpleate{
+.logoEmpleate {
 	background: url(../img/logos/logo-empleate.png) no-repeat center;
 	background-size: contain;
 }
 
-.logoMtss{
+.logoMtss {
 	background: url(../img/logos/logo-mtss.png) no-repeat center;
 	background-size: contain;
 }
 
-.logoGeek{
+.logoGeek {
 	background: url(../img/logos/logo-geek.png) no-repeat center;
 	background-size: contain;
 }
 
-.logoComunidad{
+.logoComunidad {
 	background: url(../img/logos/logo-comunidad.png) no-repeat center;
 	background-size: contain;
 }

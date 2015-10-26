@@ -11,10 +11,10 @@
     text-align: left;
     color: $color1;
     @include font-size(36);
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         @include font-size(36);
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         @include font-size(36);
     }
 }
@@ -45,12 +45,12 @@
 }
 
 
-.main-text p{
-    @media (min-width: 768px){
+.main-text p {
+    @media ( min-width: 768px ) {
         margin-top: 0;
         @include font-size(16);
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ){
         margin-top: 10px;
         @include font-size(18);
     }
@@ -69,10 +69,10 @@
     -o-transition: all 0.3s;
     transition: all 0.3s;
     @include font-size(14);
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         margin-top: 15px;
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         margin-top: 15px;
     }
 }
@@ -94,7 +94,7 @@
     margin: 0;
 }
 
-.course{
+.course {
     list-style: none;
     display: inline-block;
     height: 300px;
@@ -103,14 +103,14 @@
     cursor: pointer;
     perspective: 800;
     position: relative;
-    @media (min-width: 480px){
+    @media ( min-width: 480px ) {
         width: 100%;
     }
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         width: 45%;
         margin: 30px 30px 30px 0;
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         width: 30%;
         margin: 30px 44px 30px 0;
     }
@@ -154,10 +154,10 @@
     color: $color3;
     line-height: 1.2;
     @include font-size(26);
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
 
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
 
     }
 }
@@ -185,10 +185,10 @@
     margin: 0 auto;
     border-radius: 6px;
     padding: 12px 40px;
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         @include font-size(16);
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         @include font-size(16);
     }
 }
@@ -199,10 +199,10 @@
     padding: 0 25px;
     margin-top: 60px;
     @include font-size(16);
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         @include font-size(16);
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         @include font-size(16);
     }
 }
@@ -216,7 +216,7 @@
     width: 100%;
     color: $animacion;
     @include border-radius(3px);
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         background-size: cover;
     }
 }
@@ -252,7 +252,7 @@
     background-image: url(../img/web.jpg);
     width: 100%;
     @include border-radius(3px);
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         background-size: cover;
     }
 }
@@ -283,7 +283,7 @@
     background-image: url(../img/post.jpg);
     width: 100%;
     @include border-radius(3px);
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         background-size: cover;
     }
 }
@@ -316,10 +316,10 @@
     width: 100%;
     height: 465px;
     padding: 0;
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         width: 100%;
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         
     }
 }
@@ -327,10 +327,10 @@
 .content-free-courses {
     margin: 0 auto;
     padding: 0 5px;
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         max-width: 730px;
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         max-width: 960px;
     }
 }
@@ -364,10 +364,10 @@
     color: $color3;
     margin-top: 0;
     margin-bottom: 40px;
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         @include font-size(16);
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         @include font-size(18);
     }
 }
@@ -379,11 +379,11 @@
     float: right;
     background-color: rgba(0, 0, 0, 0.6);
     color: $color3;
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         width: 320px;
         height: 465px;
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         width: 347px;
         height: 465px;
     }
@@ -426,10 +426,10 @@
     padding: 5px 10px;
     color: $cursos;
     margin-bottom: 10px;
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         
     }
 }
@@ -492,11 +492,11 @@
     @include font-size(16);
     width: 80%;
     margin: 0 0 110px;
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
         @include font-size(16);
         margin: 0 0 90px;
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
         @include font-size(16);
         margin: 0 0 110px;
     }
@@ -515,10 +515,10 @@
     display: block;
     padding: 14px 30px;
     width: 75%;
-    @media (min-width: 768px){
+    @media ( min-width: 768px ) {
 
     }
-    @media (min-width: 1024px){
+    @media ( min-width: 1024px ) {
 
     }
 }
