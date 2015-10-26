@@ -1,12 +1,19 @@
+/* ==|====================
+   Styles.scss
+   ======================= */
 
-// Partials
+/**
+ * Partials
+ */
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/blocks";
 @import "partials/base";
 
 
-// Components
+/**
+ * Components
+ */
 @import "partials/components/header";
 @import "partials/components/navigation";
 @import "partials/components/buttons";

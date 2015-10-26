@@ -1,6 +1,6 @@
-// 
-// Header
-//
+/* ==|====================
+   Partials/Components/Header
+   ======================= */
 
 header{
 	background: url(../img/prueba.jpg) no-repeat center;
@@ -28,7 +28,8 @@ header{
     box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2);
 }
 
-/* =========== Content Header =========== */
+/* Content Header
+   ========================================================================== */
 .content-header{
 	padding-top: 18.5%;
 	.overlay {

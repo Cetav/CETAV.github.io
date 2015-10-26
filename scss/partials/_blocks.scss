@@ -1,7 +1,6 @@
-// 
-// Blocks
-//
-
+/* ==|====================
+   Partials/Blocks
+   ======================= */
 
 .section-title {  
     display: block;
@@ -21,7 +20,8 @@
 }
 
 
-/* =========== Block initial text =========== */
+/* Block initial text
+   ========================================================================== */
 
 .text-intro {
     background-color: $sections-body;
@@ -83,7 +83,8 @@
 }
 
 
-/* =========== Block courses =========== */
+/* Block courses
+   ========================================================================== */
 .section-courses {
     text-align: center;
 }
@@ -206,7 +207,10 @@
     }
 }
 
-/*side animation*/
+
+/**
+ * side animation
+ */
 .side-animation {
     background-image: url(../img/animacion.jpg);
     width: 100%;
@@ -241,7 +245,9 @@
     color: $color3;
 }
 
-/*side web*/
+/**
+ * side web
+ */
 .side-web {
     background-image: url(../img/web.jpg);
     width: 100%;
@@ -270,7 +276,9 @@
     color: $color3;
 }
 
-/*side post*/
+/**
+ * side post
+ */
 .side-post {
     background-image: url(../img/post.jpg);
     width: 100%;
@@ -299,7 +307,8 @@
     color: $color3;
 }
 
-/* =========== Free Courses =========== */
+/* Free Courses
+   ========================================================================== */
 .free-courses {
     background: url(../img/curso1.jpg) no-repeat;
     background-size: cover;
@@ -334,7 +343,9 @@
 
 
 
-/*descriton free courses*/
+/**
+ * Descriton free courses
+ */
 .title-free-courses {
     color: $color3;
     padding: 30px 0 10px;
@@ -361,7 +372,9 @@
     }
 }
 
-/*list free courses*/
+/**
+ * List free courses
+ */
 .content-new-courses {
     float: right;
     background-color: rgba(0, 0, 0, 0.6);
@@ -432,7 +445,8 @@
 }
 
 
-/* =========== Services =========== */
+/* Services
+   ========================================================================== */
 .service {
     width: 48%;
     height: 360px;
@@ -449,7 +463,9 @@
 	display: block;
 }
 
-/*estudio de audio*/
+/**
+ * Estudio de audio
+ */
 .service-audio {
     background-image: url(../img/audio.jpg);
     background-size: cover;
@@ -528,7 +544,9 @@
     transition: all 0.3s;
 }
 
-/*estudio de render*/
+/**
+ * Estudio de render
+ */
 .service-render {
     background-image: url(../img/render.jpg);
     background-size: cover;

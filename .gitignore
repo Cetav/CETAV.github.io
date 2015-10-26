@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+*.seed
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+
+# directory
+.sass-cache
+.css.map
+README.md
