@@ -22,7 +22,6 @@ header {
 .top-header {
   	background: $color4;
 	height: 70px;
-	position: fixed;
   	width: 100%;
   	z-index: 5;
     box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2);
@@ -30,28 +29,28 @@ header {
 
 /* Content Header
    ========================================================================== */
-.content-header {
-	padding-top: 18.5%;
-	.overlay {
-		text-align: center;
-	}
+.content-header{
+	padding-top: 14.5%;
 
-	@-webkit-keyframes typing { from { width: 0; } }
-	@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
-
-	h2 {
+	p:first-child{
 		color: $color3;
-	}
-	h3 { 
-		@include font-size(48);
-		width: 100%;
-		white-space: nowrap;
-		overflow: hidden;
-		-webkit-animation: typing 4s steps( 41, end ),
-		blink-caret .5s step-end infinite alternate;
+		margin:0 0 15px;
 	}
 
-	span {
+	strong{
 		color: $color1;
 	}
+}
+
+.type-wrap{
+	@include font-size(48);
+	font-family: $titles;
+	margin:10px auto;
+	padding:20px;
+	text-align: center;
+}
+
+.wrap{
+	max-width: 600px;
+	margin:150px auto;
 }

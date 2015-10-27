@@ -12,47 +12,46 @@
 	<header id="header">
   <nav class="secundary-nav">
         <ul class="max-content">
-          <li><a class="link-nav" href="#">La institución</a></li>
-          <li><a class="link-nav" href="#">Generaciones</a></li>
-          <li><a class="link-nav" href="#">Noticias</a></li>
-          <li><a class="link-nav" href="#">Mi cuenta</a></li>
+          <li><a href="#">La institución</a></li>
+          <li><a href="#">Generaciones</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="#">Mi cuenta</a></li>
         </ul>
           </nav><!--END SECUNDARY NAV-->
     <div class="top-header">
       <div class="max-content">
         <h1 class="logo-cetav"><a href="#">logo</a></h1>
         <div class="nav-content">
-
-          <div class="searchBox">
-            <input type="checkbox" id="chkbox" class="chkbox" />
-            <label for="chkbox"><img src="img/search-1.png" alt="" /></label>
-            <input type="text" class="txt" placeholder="buscar"/>
+          
+          <div class="searchBox searcher">
+            <input type="text" id="searcherInput" class="searcherInput" placeholder="Ingresar">
+            <img id="searcher" src="img/search-1.png" alt="lupa">
           </div>
 
           <nav class="main-nav">
             <ul>
-              <li><a class="link-nav" href="#header">Inicio</a></li>
-              <li><a class="link-nav" href="#courses">Carreras</a>
+              <li><a href="#header">Inicio</a></li>
+              <li><a href="#courses">Carreras</a>
                   <ul class="drop-down">
-                    <li><a class="link-nav" href="#">Animación 3D</a></li>
-                    <li><a class="link-nav" href="#">Diseño y Desarrollo Web</a></li>
-                    <li><a class="link-nav" href="#">Edición y postproducción</a></li>
-                    <li><a class="link-nav" href="#">Admisión</a></li>
+                    <li><a href="#">Animación 3D</a></li>
+                    <li><a href="#">Diseño y Desarrollo Web</a></li>
+                    <li><a href="#">Edición y postproducción</a></li>
+                    <li><a href="#">Admisión</a></li>
                   </ul>
               </li>
-              <li><a class="link-nav" href="#free-courses">Cursos Libres</a>
+              <li><a href="#free-courses">Cursos Libres</a>
                 <ul class="drop-down">
-                  <li><a class="link-nav" href="#">Animacion Digital</a></li>
-                  <li><a class="link-nav" href="#">Actualización Personal</a></li>
+                  <li><a href="#">Animacion Digital</a></li>
+                  <li><a href="#">Actualización Personal</a></li>
                 </ul>
               </li>
-              <li><a class="link-nav" href="#services">Servicios</a>
+              <li><a href="#services">Servicios</a>
                 <ul class="drop-down">
-                  <li><a class="link-nav" href="#">Render Farm</a></li>
-                  <li><a class="link-nav" href="#">Estudio de Sonido</a></li>
+                  <li><a href="#">Render Farm</a></li>
+                  <li><a href="#">Estudio de Sonido</a></li>
                 </ul>
               </li>
-              <li><a class="link-nav" href="#">Egresados</a></li>
+              <li><a href="#">Egresados</a></li>
             </ul>
           </nav><!--END MAIN NAV-->
         </div>
@@ -60,10 +59,13 @@
     </div><!--END TOP-HEADER-->
 
     <div class="max-content content-header">
-      <div class="overlay">
-        <h2>Somos</h2>
-        <h3><span>Creatividad, Innovación y Tecnología</span></h3> 
-      </div>
+      <div class="type-wrap">
+            <p>Somos</p>
+            <div id="typed-strings">
+                <p><strong>Creatividad, Innovación y Tecnología</strong></p>
+            </div>
+            <span id="typed" style="white-space:pre;"></span>
+        </div>
     </div><!--CONTENT HEADER-->
   </header><!--END HEADER-->
 
@@ -269,6 +271,8 @@
     </div>
   </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/typed.min.js" type="text/javascript"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
