@@ -8,7 +8,7 @@
 /* ==|====================
    Partials/Variables
    ======================= */
-/* Tipograf├¡a
+/* Tipografía
    ========================================================================== */
 /* Colores
    ========================================================================== */
@@ -367,7 +367,7 @@
   font-family: "Open Sans", Arial, sans-serif;
   color: #fff;
   margin-top: 0;
-  margin-bottom: 40px; }
+  margin-bottom: 110px; }
   @media (min-width: 768px) {
     .text-course-description {
       font-size: 16px;
