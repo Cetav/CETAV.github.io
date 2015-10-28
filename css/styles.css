@@ -367,7 +367,7 @@
   font-family: "Open Sans", Arial, sans-serif;
   color: #fff;
   margin-top: 0;
-  margin-bottom: 110px; }
+  margin-bottom: 40px; }
   @media (min-width: 768px) {
     .text-course-description {
       font-size: 16px;
@@ -709,6 +709,9 @@ header {
   max-width: 600px;
   margin: 150px auto; }
 
+/* ==|====================
+   Partials/Components/Navigation
+   ======================= */
 nav ul li a {
   color: #fff;
   font-family: "Montserrat", Arial, sans-serif bold; }
@@ -878,10 +881,10 @@ nav ul li a {
 
 @media (min-width: 768px) {
   .section-title-allies {
-    margin-top: 30px; } }
+    margin-top: 0; } }
 @media (min-width: 1024px) {
   .section-title-allies {
-    margin-top: 15px; } }
+    margin-top: 0; } }
 
 .info-section {
   float: right;

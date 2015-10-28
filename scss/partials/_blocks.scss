@@ -363,7 +363,7 @@
     font-family: $body;
     color: $color3;
     margin-top: 0;
-    margin-bottom: 110px;
+    margin-bottom: 40px;
     @media ( min-width: 768px ) {
         @include font-size(16);
     }
