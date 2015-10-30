@@ -65,3 +65,9 @@ $(function(){
     function foo(){ console.log("Callback"); }
 
 
+/**
+ * toggle para animación de carreras
+ */
+ $('.card').hover(function() {
+   $(this).toggleClass('flipped');
+ });
