@@ -165,11 +165,11 @@
 }
 
 .title-course-item {
-    @include font-size(17);
+    @include font-size(16);
     font-weight: bolder;
     line-height: 1.2;
     margin-top: 40px;
-    margin-bottom: 13px;
+    margin-bottom: 15px;
 }
 
 .list-free-courses {
@@ -187,8 +187,8 @@
     font-family: $body;
     border: 1px solid $cursos;
     text-decoration: none;
-    @include font-size(14);
-    border-radius: 4px;
+    @include font-size(13);
+    border-radius: 2px;
     padding: 5px 10px;
     color: $cursos;
     margin-bottom: 10px;
