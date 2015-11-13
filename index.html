@@ -22,11 +22,14 @@
       <div class="max-content">
         <h1 class="logo-cetav"><a href="#">logo</a></h1>
         <div class="nav-content">
-          
-          <div class="searchBox searcher">
-            <input type="text" id="searcherInput" class="searcherInput" placeholder="Buscar">
-            <img id="searcher" src="img/search-1.png" alt="lupa">
-          </div>
+          <!--<form class="searcher" autocomplete="on">
+            <input type="text" name="input">
+            <button class="search" id="searchBtn">search</button>
+          </form>-->
+            <form action="" autocomplete="on" class="searcher">
+              <input id="searchBar" name="search" type="text" placeholder="Buscar" class="searchBar">
+              <input id="searchSubmit" value="" type="submit" class="search">
+            </form>
 
           <nav class="main-nav">
             <ul>
@@ -39,18 +42,7 @@
                     <li><a href="#">Admisión</a></li>
                   </ul>
               </li>
-              <li><a href="#free-courses">Cursos Libres</a>
-                <ul class="drop-down">
-                  <li><a href="#">Animacion Digital</a></li>
-                  <li><a href="#">Actualización Personal</a></li>
-                </ul>
-              </li>
-              <li><a href="#services">Servicios</a>
-                <ul class="drop-down">
-                  <li><a href="#">Render Farm</a></li>
-                  <li><a href="#">Estudio de Sonido</a></li>
-                </ul>
-              </li>
+              <li><a href="#free-courses">Actualización Profesional</a></li>
               <li><a href="#">Egresados</a></li>
             </ul>
           </nav><!--END MAIN NAV-->
@@ -70,97 +62,83 @@
   </header><!--END HEADER-->
 
   <section class="text-intro">
-    <div class="max-content">
-      <div class="main-title">
-        <h2 class="section-title title-intro ">Centro de Tecnología y Artes Visuales</h2>
-      </div>
-      <div class="main-text">
-        <p>Somos una institución que le brinda la oportunidad de estudiar lo que le apasiona y reforzar sus habilidades en las áreas creativas y tecnológicas, así como el fortalecimiento de habilidades blandas, formación en gestión de negocios y desarrollo del pensamiento creativo y crítico. para que sea competitivo en el mundo laboral y un profesional exitoso.</p>
-        <a href="#" class="read-more-about">Conozca más del CETAV</a>
-      </div>
+   <div class="max-content">
+    <div class="main-title">
+      <!-- <h2 class="section-title title-intro ">Centro de Tecnología y Artes Visuales</h2> -->
+      <img src="img/logo-naranja-cetav.png">
     </div>
+    <div class="main-text">
+      <p>Somos una institución que le brinda la oportunidad de estudiar lo que le apasiona y reforzar sus habilidades en las áreas creativas y tecnológicas, así como el fortalecimiento de habilidades blandas, formación en gestión de negocios y desarrollo del pensamiento creativo y crítico. para que sea competitivo en el mundo laboral y un profesional exitoso.</p>
+      <a href="#" class="read-more-about">Conozca más del CETAV</a>
+    </div>
+   </div>
   </section><!--END text_intro-->
 
-  <section class="section-courses">
-    <div class="max-content">
-      <h2 class="section-title">Áreas técnicas</h2>
-      <div class="container-card">
-        <div class="card">
-          <div class="side side-front side-front-animation side-front-animation-image">
-            <div class="opacity opacity-card">
-              <h3 class="title title-course title-course-animation">Animación 3D</h3>
-            </div>
-          </div>
-          <div class="side side-back">
-            <p class="text-info-course text-info-course-animation">Si te apasiona dibujar y las animaciones en 3D, esta es tu oportunidad.</p>
-            <div class="clear-btn">
-              <a class="btn-course btn-animation" href="">Conozca más</a>
-            </div>
-          </div>
-        </div> <!-- end card -->    
-      </div> <!-- end container-card -->
-      <div class="container-card">
-        <div class="card">
-          <div class="side side-front side-front-web side-front-web-image">
-            <div class="opacity opacity-card">
-              <h3 class="title title-course title-course-web">Desarrollo Web</h3>
-            </div>
-          </div>
-          <div class="side side-back">
-            <p class="text-info-course text-info-course-web">Si te apasionan los sitios web y las aplicaciones móviles, esta es tu oportunidad.</p>
-            <div class="clear-btn">
-              <a class="btn-course btn-web" href="">Conozca más</a>
-            </div>
-          </div>
-        </div> <!-- end card -->    
-      </div> <!-- end container-card -->
-      <div class="container-card">
-        <div class="card">
-          <div class="side side-front side-front-post side-front-post-image">
-            <div class="opacity opacity-card">
-              <h3 class="title title-course title-course-post">Edición y Postproducción de Imagen y Sonido</h3>
-            </div>
-          </div>
-          <div class="side side-back">
-            <p class="text-info-course text-info-course-post">Si te apasionan la edición y postproducción de imagen y sonido, esta es tu oportunidad.</p>
-            <div class="clear-btn">
-              <a class="btn-course btn-post" href="">Conozca más</a>
-            </div>
-          </div>
-        </div> <!-- end card -->    
-      </div> <!-- end container-card -->    
-    </div> <!-- end wrapper -->
-  </section> <!-- end section courses -->
+	<section class="section-courses">
+	<!-- <div class="wrapper">
+			<h2 class="section-title">Áreas técnicas</h2>
+		</div>  --><!-- end wrapper -->
+			<div class="container-card">
+				<div class="container-info container-info-animation">
+					<div class="container-title">
+						<h2 class="title-course title-course-animation">Animación <br> 3D</h2>
+						<a href="#" class="view-more view-more-animation">Conozca más</a>
+					</div>
+				</div>
+			</div> <!-- end container-card -->
+			<div class="container-card">
+				<div class="container-info container-info-web">
+					<div class="container-title">
+						<h2 class="title-course title-course-web">Diseño y <br> Desarrollo Web</h2>
+						<a href="#" class="view-more view-more-web">Conozca más</a>
+					</div>
+				</div>
+			</div> <!-- end container-card -->
+			<div class="container-card">
+				<div class="container-info container-info-post">
+					<div class="container-title">
+						<h2 class="title-course title-course-post">Edición y Postproducción de Imagen y Sonido</h2>
+						<a href="#" class="view-more view-more-post">Conozca más</a>
+					</div>
+				</div>
+			</div> <!-- end container-card -->
+	</section> <!-- end section courses -->
 
-  <section id="free-courses" class="free-courses">  
-    <div class="opacity background-opacity">
-        <section class="content-free-courses max-content">
-          <div class="description-free-courses">
-            <h2 class="section-title title-free-courses">Fortalezca su perfil profesional</h2>
-            <p class="text-course-description">Ofrecemos una variedad de cursos cortos en las áreas de edición y postproducción, diseño y desarrollo web, animación digital y afines dirigidos a profesionales. Nuestro objetivo, es brindar las mejores herramientas para la actualización profesional en un mercado cambiante.</p>
-            <a href="#" class="btn btn-course-2">Actualización Profesional</a>
-          </div><!-- END DESCRIPTION FREE COURSES-->
-
-          <div class="content-new-courses">
-            <h3 class="text-title-free-courses">Próximos cursos libres</h3>
-            <ul class="list-free-courses">
-              <li class="course-item">
-                <h3 class="title-course-item">Edición y Composición para Largometrajes Animados</h3>
-                <a href="#" class="read-more">Ver más del curso</a>
-              </li>
-              <li class="course-item">
-                <h3 class="title-course-item">Edición y Composición para Largometrajes Animados</h3>
-                <a href="#" class="read-more">Ver más del curso</a>
-              </li>
-              <li class="course-item">
-                <h3 class="title-course-item">Edición y Composición para Largometrajes Animados</h3>
-                <a href="#" class="read-more">Ver más del curso</a>
-              </li>
-            </ul>
-          </div><!-- END CONTENT NEW COURSES -->      
-        </section><!-- END CONTENT FREE COURSES -->
-      </div><!-- END BACKGROUND OPACITY -->
-  </section><!--END FREE-COURSES-->
+	<section id="free-courses" class="free-courses">
+		<div class="max-content">
+				<div class="description-free-courses">
+					<h2 class="section-title text-title-free-courses">Fortalezca su perfil profesional</h2>
+					<div class="content-text-course">
+						<p class="text-course-description">Ofrecemos una variedad de cursos cortos en las áreas de edición y postproducción, diseño y desarrollo web, animación digital y afines dirigidos a profesionales. Nuestro objetivo, es brindar las mejores herramientas para la actualización profesional en un mercado cambiante.<a href="#" class="btn btn-course"><img class="btn-arrow-course" src="img/arrow.png" alt="">Ver todos los cursos</a></p>
+					</div><!--END CONTENT TEXT COURSE-->
+			</div><!--END DESCRIPTION FREE COURSES-->
+			<div  class="content-free-courses">
+				<div alt="image of free courses" class="images-free-courses">	
+				</div>
+				<!-- <img class="images-free-courses" src="img/course.jpg" alt="image of free courses" /> -->
+					<div class="container-list-courses">
+					<h3 class="title-list-courses">Próximos Cursos</h3>
+					<ul class="list-free-courses">
+						<li class="course-item">
+							<h4 class="title-course-item">Edición y Composición para Largometrajes Animados</h4>
+							<p class="date-course-item">24 de febrero - 10 de marzo</p>
+							<a href="#" class="btn-course read-more">Ver más del curso</a>
+						</li> <!--END COURSE ITEM -->
+						<li class="course-item">
+							<h4 class="title-course-item">Edición y Composición para Largometrajes Animados</h4>
+							<p class="date-course-item">24 de febrero - 10 de marzo</p>
+							<a href="#" class="btn-course read-more">Ver más del curso</a>
+						</li> <!--END COURSE ITEM -->
+							<li class="course-item">
+							<h4 class="title-course-item">Edición y Composición para Largometrajes Animados</h4>
+							<p class="date-course-item">24 de febrero - 10 de marzo</p>
+							<a href="#" class="btn-course read-more">Ver más del curso</a>
+							</li> <!--END COURSE ITEM -->
+					</ul><!--END LIST FREE COURSES -->
+					</div><!-- END CONTAINER LIST COURSES -->
+			</div><!--END CONTENT FREE COURSES-->
+		</div><!-- END MAX-CONTENT -->
+	</section><!--END FREE-COURSES-->
 
   <section id="aliados" class="aliados">
   <div class="max-content">

@@ -2,9 +2,6 @@
   *** Sticky menu ***
 */ 
 (function () {
-  var searcher = document.getElementById("searcher");
-  var searcherInput = document.getElementById("searcherInput");
-  
 
   var targetElement = document.querySelector('.top-header'),
       scrollTop,
@@ -20,54 +17,44 @@
     }
   }, false);
 
-
-  function searchExtended(){
-    searcherInput.style.display = "none";
-    searcher.onclick = function(){
-      if(searcherInput.style.display == 'none'){
-        searcherInput.style.display = 'inline-block';
-      }
-      else {
-        searcherInput.style.display = 'none';
-      }
-    }  
-  }searchExtended();
-
 }());
 
 
-/*
-  *** Typing Text Header ***
-*/ 
-$(function(){
+ 
+$(function(window){
+  /*
+    *** Typing Text Header ***
+  */
+  $("#typed").typed({
+  // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+    stringsElement: $('#typed-strings'),
+    typeSpeed: 30,
+    backDelay: 500,
+    loop: false,
+    contentType: 'html', // or text
+    // defaults to false for infinite loop
+    loopCount: false,
+    callback: function(){ foo(); },
+    resetCallback: function() { newTyped(); }
+  });
 
-        $("#typed").typed({
-            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
-            stringsElement: $('#typed-strings'),
-            typeSpeed: 30,
-            backDelay: 500,
-            loop: false,
-            contentType: 'html', // or text
-            // defaults to false for infinite loop
-            loopCount: false,
-            callback: function(){ foo(); },
-            resetCallback: function() { newTyped(); }
-        });
+  $(".reset").click(function(){
+    $("#typed").typed('reset');
+  });
 
-        $(".reset").click(function(){
-            $("#typed").typed('reset');
-        });
+   /*
+    *** Search Bar ***
+  */
+  function expand() {
+     event.preventDefault();
+    $('#searchSubmit').toggleClass('close');
+    $('#searchBar').toggleClass('expanded');
+  }
 
-    });
+  $('#searchSubmit').on('click', expand);
 
-    function newTyped(){ /* A new typed object */ }
-
-    function foo(){ console.log("Callback"); }
+}(window));
 
 
-/**
- * toggle para animación de carreras
- */
- $('.card').hover(function() {
-   $(this).toggleClass('flipped');
- });
+    
+

@@ -1,60 +1,49 @@
 /* ==|====================
    Partials/Components/Buttons
+
+   -------INDEX--------
+   #Style of the buttons in free courses
+   #View All Courses
+   #Read More About The Course
    ======================= */
 
-
-/* Buttons Free Courses
+/* #Style of the buttons in free courses
+   ========================================================================== */
+.btn-course {
+    font-family: $titles;
+}
+/* #View All Courses
    ========================================================================== */
 .btn {
-    font-family: $body;
-    @include font-size(18);
+    @include font-size(15);
+    color: $blue-light;
+    padding: 6px 12px;  
+}
+
+.btn-arrow-course {
+    margin-right: 6px;
+    width: 9px;
+}
+/* #Read More About The Course
+   ========================================================================== */
+.read-more {
+    background-color:$blue-light;
+    border-radius: 6px;
+    color: $white;
+    @include font-size(14);
+    padding: 6px 10px;
+    position: absolute;
+    right: 0;
+    top: 23px;
     text-decoration: none;
-    color: $color3;
-    background-color: $cursos;
-    height: 100%;
-    text-align: start;
-    color: $color4;
-    font-weight: bolder;
-    @include border-radius(3px);
-    display: block;
-    padding: 14px 30px;
-    @media ( min-width: 768px ) {
-        @include font-size(16);
-    }
-    @media ( min-width: 1024px ) {
-        @include font-size(16);
-    } 
-}
 
-.btn:after {
-    content: "";
-    float: right;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 5px 0 5px 10px;
-    border-color: transparent transparent transparent $color4;
-    margin-top: 5px;
-}
-
-.btn:hover {
-    background-color: #00acea;
-    border-color: #00acea;
-    -webkit-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-
-.btn-course-2 {
-    width: 60%;
-    @media ( min-width: 768px ) {
-        width: 60%;   
-    }
-    @media ( min-width: 1024px ) {
-        width: 60%;
+     &:hover{
+        background-color: #00acea;
+        color: $white;
+        -webkit-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
     }
 }
-

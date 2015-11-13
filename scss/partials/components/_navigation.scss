@@ -1,51 +1,6 @@
 /* ==|====================
    Partials/Components/Navigation
    ======================= */
-
-nav ul li a {
-  color: $color3;
-  font-family: $titles;
-}
-
-.drop-down{
-  background-color: #1d1d1d;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.85)"; /*internet explorer 8 - */
-  filter: alpha(opacity=0.85); /* internet explorer */
-  -khtml-opacity: 0.85;      /* khtml, version anterior de safari */
-  -moz-opacity: 0.85;       /* firefox, mozilla, netscape */
-  opacity: 0.85;           /* safari, chrome, opera */
-
-  display: none;
-  padding: 20px 0;
-  position: absolute;
-  text-align: left;
-  width: 180px;
-
-  li{
-    display: block;
-    margin-bottom: 15px;
-    padding-left: 6%;
-  }
-
-  a {
-    color: $color3;
-  }
-}
-
-.main-nav {
-  @include font-size(15);
-  margin: -8px 0;
-  text-align: right;
-
-  li:hover .drop-down{
-    display: block;
-  }
-
-  li a{
-    font-weight: bold;
-  }
-}
-
 .nav-content{
   display: inline-block;
   float: right;
@@ -53,42 +8,165 @@ nav ul li a {
   width: 80%;
 }
 
-.searchBox{
-  float: right;
-  margin: 0 0 0 20px;
+.main-nav {
+  @include font-size(15);
+  margin: -19px 35px 0 0;
+  text-align: right;
+}
 
-  &:hover{
-    cursor: pointer;
-  }
+.main-nav li {
+  padding: 10px 5px;
+}
 
-  .searcherInput{
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid $color2;
-    color: #aaa;
-    display: none;
-    @include font-size(14);
-    margin: 9px 8px 0 0;
-    padding: 0 10px 8px 0;
-    width: 200px;
+.main-nav li a{
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
 
-    &:focus{
-      outline: none !important;
-      border-color: none;
+.main-nav li:hover a{
+    color: $color1;
+    -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+
+
+.main-nav ul li a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: $color3;
+  font-family: $titles;
+  
+}
+
+.main-nav ul li:nth-child(2):after{
+  color:$color3;
+  content: '\25bc';
+  @include font-size(12);
+}
+  
+.main-nav li:hover .drop-down {
+  background-color: $color4;
+  position: absolute;
+  visibility: visible;
+   -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.drop-down{
+  margin-top: 1px;
+  padding: 20px 20px 20px 0;
+  position: absolute;
+  text-align: left;
+  width:230px;
+  background: none;
+  position: absolute;
+  visibility: hidden;
+
+  li{
+    border-left:  3px solid transparent;
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    width: 100%;
+    -webkit-transition: border 0.3s ease;
+    -o-transition: border 0.3s ease;
+    transition: border 0.3s ease;
+
+    &:hover{
+      border-left:  3px solid $color1;
+      -webkit-transition: border 0.3s ease;
+    -o-transition: border 0.3s ease;
+    transition: border 0.3s ease;
+
     }
-  } 
 
+    a {
+      border-bottom: none !important;
+      color: $color3 !important; 
+      padding: 0 !important;
+    }
 }
 
-#searcher{
-  margin: 10px 0 0;
+  a {
+    color: $color3;
+  }
+}
+
+/**
+ *Search
+ */
+.searcher{
   float: right;
 }
 
-.extended{
-  display: inline-block;
+.searchBar {
+  background: #292929;
+  border: 1px solid;
+  color: $color3;
+  cursor: pointer;
+  display: none;
+  @include font-size(14);
+  height: 30px;
+  padding: 10px;  
+  position: absolute;
+  right: 18%;
+  transition: width .4s all;
+  width: 0;
+  z-index: 3;  
 }
 
+.searchBar:focus {
+  z-index: 1;
+  cursor: text;
+  border: 1px solid $color3 !important;
+}
+
+.search{
+  background: url(../img/search1.png) no-repeat center;
+  background-color: none;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  height: 18px;
+  margin-top: 5px;
+  text-indent: -9999px;
+  width: 18px;
+  transition: opacity .4s ease;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+.close {
+  background: url("../img/close1.png") no-repeat center;
+  height: 18px;
+  margin-top: 5px;
+  width: 18px;  
+}
+
+.expanded{
+  display: inline-block;
+  transition: width .4s all;
+  width: 310px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+
+/**
+ *Secundary nav
+ */
 .secundary-nav{
   background-color: #505050;
   margin-top: 0;
@@ -109,3 +187,4 @@ nav ul li a {
   position: fixed;
   top: 0;
 }
+
