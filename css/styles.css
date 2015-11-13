@@ -139,6 +139,9 @@
   top: 46%;
   transform: translateY(-50%); }
 
+.logo-courses {
+  margin-bottom: 20px; }
+
 .title-course {
   font-size: 30px;
   margin-bottom: 40px;
