@@ -4,41 +4,41 @@
 
 .aliados {
 	background: $sections-body;
-	h2 {
-		float:left;
-	}
   	ul {
 	 	padding-left: 0;
   	}
 }
 
 .section-title-allies {
-    @media ( min-width : 768px ) {
-        margin-top: 0;
+	margin-top: 0;
+	width: 100%;
+    font-family: $titles;
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
+        text-align: center;
     }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+        text-align: center;
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 900px ) {
+        text-align: center;
+    }
+    /* Medium Devices, Desktops */
     @media ( min-width : 1024px ) {
-        margin-top: 0;
+        text-align: left;
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
+        text-align: left;
     }
 }
 
-.info-section {
-	float: right;
-	width: 50%;
-    @media ( min-width : 768px ) {
-        @include font-size(16);
-    }
-    @media ( min-width : 1024px ) {
-        @include font-size(18);
-    }
-}
+
 
 .info-section p {
-    @media ( min-width : 768px ) {
-        margin: 0;
-    }
-    @media ( min-width : 1024px ) {
-        margin: 0;
-    }
+	margin: 0;
 }
 
 .logos-aliados {
@@ -50,7 +50,7 @@
 		margin-top: 60px;
 		text-indent: -9999px;	
 		float: left;
-	    @media ( min-width : 768px ) {
+	    @media ( min-width : 900px ) {
 	        width: 33%;
 	    }
 	    @media ( min-width : 1024px ) {

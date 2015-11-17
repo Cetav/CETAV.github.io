@@ -10,11 +10,24 @@
     width: 50%;
     text-align: left;
     color: $color1;
-    @include font-size(36);
-    @media ( min-width: 768px ) {
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
+        @include font-size(24);
+    }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+        @include font-size(28);
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width: 900px ) {
+        @include font-size(30);
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width: 1024px ) {
         @include font-size(36);
     }
-    @media ( min-width: 1024px ) {
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
         @include font-size(36);
     }
 }
@@ -28,13 +41,63 @@
 }
 
 .main-title {;
-    width: 40%;
-    display: inline-block;
+    float: left;
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 900px ) {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width : 1024px ) {
+        width: 40%;
+        display: inline-block;
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
+        width: 40%;
+        display: inline-block;
+    }
 }
 
 .main-title img {
-    width: 300px;
-    margin-top: 30px;
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
+        width: 200px;
+    }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+        width: 240px;
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 900px ) {
+        width: 280px;
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width : 1024px ) {
+        width: 300px;
+        margin-top: 30px;
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
+        width: 300px;
+        margin-top: 30px;
+    }
 }
 
 .title-intro {
@@ -43,18 +106,60 @@
 }
 
 .main-text {
-    width: 50%;
-    float: right;
-    margin-right: 60px;
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
+        width: 100%;
+        display: block;
+    }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+        width: 100%;
+        display: block;
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 900px ) {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width : 1024px ) {
+        width: 50%;
+        float: right;
+        margin-right: 60px;
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
+        width: 50%;
+        float: right;
+        margin-right: 60px;
+    }
 }
 
 
 .main-text p {
-    @media ( min-width: 768px ) {
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
         margin-top: 0;
         @include font-size(16);
     }
-    @media ( min-width: 1024px ){
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+        margin-top: 0;
+        @include font-size(16);
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 900px ) {
+        margin-top: 0;
+        @include font-size(16);
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width : 1024px ) {
+        margin-top: 10px;
+        @include font-size(18);
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
         margin-top: 10px;
         @include font-size(18);
     }
@@ -73,7 +178,7 @@
     -o-transition: all 0.3s;
     transition: all 0.3s;
     @include font-size(14);
-    @media ( min-width: 768px ) {
+    @media ( min-width: 900px ) {
         margin-top: 5px;
     }
     @media ( min-width: 1024px ) {
@@ -100,13 +205,35 @@
 }
 
 .container-card {
-    width: calc(100% / 3);
     height: 400px;
     float: left;
     text-align: center;
     display: inline-block;
     position: relative;
 /*    border: 1px solid #dedede;*/
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
+        width: 100%;
+        display: block;
+    }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+        width: 100%;
+        display: block;
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 900px ) {
+        width: 100%;
+        display: block;
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width : 1024px ) {
+        width: calc(100% / 3);
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
+        width: calc(100% / 3);
+    }
 }
 
 .container-info {
@@ -131,11 +258,57 @@
 }
 
 .title-course {
-    font-size: 30px;
     margin-bottom: 40px;
     font-weight: bold;
     color: white;
     text-align: center;
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
+        @include font-size(24);
+    }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+        @include font-size(26);
+        padding: 0 5%;
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 900px ) {
+        @include font-size(28);
+        padding: 0 10%;
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width : 1024px ) {
+        @include font-size(30);
+        padding: 0;
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
+        @include font-size(30);
+        padding: 0;
+    }
+}
+
+.br-style {
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
+        display: none;
+    }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+        display: none;
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 900px ) {
+        display: none;
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width : 1024px ) {
+        display: block;
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
+        display: block;
+    }
 }
 
 .view-more {

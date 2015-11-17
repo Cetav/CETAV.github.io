@@ -118,9 +118,9 @@ section {
 	overflow: auto;
 	padding: 0 5px;
     /* Custom, iPhone Retina */ 
-/*     @media (min-width : 320px) {
-        
-    } */
+     @media (min-width : 320px) {
+        max-width: 300px;
+    }
     /* Extra Small Devices, Phones */ 
     @media ( min-width : 480px ) {
     	max-width: 400px;

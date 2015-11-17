@@ -17,7 +17,31 @@
 .btn {
     @include font-size(15);
     color: $blue-light;
-    padding: 6px 12px;  
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
+      display: block;
+      padding: 6px 0px;
+    }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+      display: block;
+      padding: 6px 0px;
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 900px ) {
+      display: block;
+      padding: 6px 0px;
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width : 1024px ) {
+      display: inline-block;
+      padding: 6px 12px;
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
+      display: inline-block;
+      padding: 6px 12px;
+    }
 }
 
 .btn-arrow-course {
@@ -27,16 +51,39 @@
 /* #Read More About The Course
    ========================================================================== */
 .read-more {
+    @include font-size(14);
     background-color:$blue-light;
     border-radius: 6px;
     color: $white;
-    @include font-size(14);
     padding: 6px 10px;
-    position: absolute;
-    right: 0;
-    top: 23px;
     text-decoration: none;
-
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 900px ) {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width : 1024px ) {
+        position: absolute;
+        right: 0;
+        top: 23px;
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
+        position: absolute;
+        right: 0;
+        top: 23px;
+    }
      &:hover{
         background-color: #00acea;
         color: $white;

@@ -34,13 +34,28 @@
   width: 50%;
   text-align: left;
   color: #ff8f00;
-  font-size: 36px;
-  font-size: 3.6rem; }
-  @media (min-width: 768px) {
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .section-title {
+      font-size: 24px;
+      font-size: 2.4rem; } }
+  @media (min-width: 480px) {
+    .section-title {
+      font-size: 28px;
+      font-size: 2.8rem; } }
+  @media (min-width: 900px) {
+    .section-title {
+      font-size: 30px;
+      font-size: 3rem; } }
+  @media (min-width: 1024px) {
     .section-title {
       font-size: 36px;
       font-size: 3.6rem; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     .section-title {
       font-size: 36px;
       font-size: 3.6rem; } }
@@ -52,12 +67,62 @@
   height: auto; }
 
 .main-title {
-  width: 40%;
-  display: inline-block; }
+  float: left;
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .main-title {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin-bottom: 15px; } }
+  @media (min-width: 480px) {
+    .main-title {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin-bottom: 20px; } }
+  @media (min-width: 900px) {
+    .main-title {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin-bottom: 30px; } }
+  @media (min-width: 1024px) {
+    .main-title {
+      width: 40%;
+      display: inline-block; } }
+  @media (min-width: 1280px) {
+    .main-title {
+      width: 40%;
+      display: inline-block; } }
 
 .main-title img {
-  width: 300px;
-  margin-top: 30px; }
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .main-title img {
+      width: 200px; } }
+  @media (min-width: 480px) {
+    .main-title img {
+      width: 240px; } }
+  @media (min-width: 900px) {
+    .main-title img {
+      width: 280px; } }
+  @media (min-width: 1024px) {
+    .main-title img {
+      width: 300px;
+      margin-top: 30px; } }
+  @media (min-width: 1280px) {
+    .main-title img {
+      width: 300px;
+      margin-top: 30px; } }
 
 .title-intro {
   width: 100%;
@@ -65,20 +130,66 @@
   font-size: 4.8rem; }
 
 .main-text {
-  width: 50%;
-  float: right;
-  margin-right: 60px; }
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .main-text {
+      width: 100%;
+      display: block; } }
+  @media (min-width: 480px) {
+    .main-text {
+      width: 100%;
+      display: block; } }
+  @media (min-width: 900px) {
+    .main-text {
+      width: 90%;
+      display: block;
+      margin: 0 auto; } }
+  @media (min-width: 1024px) {
+    .main-text {
+      width: 50%;
+      float: right;
+      margin-right: 60px; } }
+  @media (min-width: 1280px) {
+    .main-text {
+      width: 50%;
+      float: right;
+      margin-right: 60px; } }
 
-@media (min-width: 768px) {
-  .main-text p {
-    margin-top: 0;
-    font-size: 16px;
-    font-size: 1.6rem; } }
-@media (min-width: 1024px) {
-  .main-text p {
-    margin-top: 10px;
-    font-size: 18px;
-    font-size: 1.8rem; } }
+.main-text p {
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .main-text p {
+      margin-top: 0;
+      font-size: 16px;
+      font-size: 1.6rem; } }
+  @media (min-width: 480px) {
+    .main-text p {
+      margin-top: 0;
+      font-size: 16px;
+      font-size: 1.6rem; } }
+  @media (min-width: 900px) {
+    .main-text p {
+      margin-top: 0;
+      font-size: 16px;
+      font-size: 1.6rem; } }
+  @media (min-width: 1024px) {
+    .main-text p {
+      margin-top: 10px;
+      font-size: 18px;
+      font-size: 1.8rem; } }
+  @media (min-width: 1280px) {
+    .main-text p {
+      margin-top: 10px;
+      font-size: 18px;
+      font-size: 1.8rem; } }
 
 .read-more-about {
   color: #848286;
@@ -94,7 +205,7 @@
   transition: all 0.3s;
   font-size: 14px;
   font-size: 1.4rem; }
-  @media (min-width: 768px) {
+  @media (min-width: 900px) {
     .read-more-about {
       margin-top: 5px; } }
   @media (min-width: 1024px) {
@@ -116,13 +227,35 @@
   margin: 80px auto 0; }
 
 .container-card {
-  width: calc(100% / 3);
   height: 400px;
   float: left;
   text-align: center;
   display: inline-block;
   position: relative;
-  /*    border: 1px solid #dedede;*/ }
+  /*    border: 1px solid #dedede;*/
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .container-card {
+      width: 100%;
+      display: block; } }
+  @media (min-width: 480px) {
+    .container-card {
+      width: 100%;
+      display: block; } }
+  @media (min-width: 900px) {
+    .container-card {
+      width: 100%;
+      display: block; } }
+  @media (min-width: 1024px) {
+    .container-card {
+      width: calc(100% / 3); } }
+  @media (min-width: 1280px) {
+    .container-card {
+      width: calc(100% / 3); } }
 
 .container-info {
   width: 100%;
@@ -143,11 +276,61 @@
   margin-bottom: 20px; }
 
 .title-course {
-  font-size: 30px;
   margin-bottom: 40px;
   font-weight: bold;
   color: white;
-  text-align: center; }
+  text-align: center;
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .title-course {
+      font-size: 24px;
+      font-size: 2.4rem; } }
+  @media (min-width: 480px) {
+    .title-course {
+      font-size: 26px;
+      font-size: 2.6rem;
+      padding: 0 5%; } }
+  @media (min-width: 900px) {
+    .title-course {
+      font-size: 28px;
+      font-size: 2.8rem;
+      padding: 0 10%; } }
+  @media (min-width: 1024px) {
+    .title-course {
+      font-size: 30px;
+      font-size: 3rem;
+      padding: 0; } }
+  @media (min-width: 1280px) {
+    .title-course {
+      font-size: 30px;
+      font-size: 3rem;
+      padding: 0; } }
+
+.br-style {
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .br-style {
+      display: none; } }
+  @media (min-width: 480px) {
+    .br-style {
+      display: none; } }
+  @media (min-width: 900px) {
+    .br-style {
+      display: none; } }
+  @media (min-width: 1024px) {
+    .br-style {
+      display: block; } }
+  @media (min-width: 1280px) {
+    .br-style {
+      display: block; } }
 
 .view-more {
   padding: 15px 22px;
@@ -299,13 +482,13 @@ section {
   overflow: auto;
   padding: 0 5px;
   /* Custom, iPhone Retina */
-  /*     @media (min-width : 320px) {
-          
-      } */
   /* Extra Small Devices, Phones */
   /* Small Devices, Tablets */
   /* Medium Devices, Desktops */
   /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .max-content {
+      max-width: 300px; } }
   @media (min-width: 480px) {
     .max-content {
       max-width: 400px; } }
@@ -555,22 +738,63 @@ header {
 .text-title-free-courses {
   color: #00c9ed;
   font-family: "Montserrat", Arial, sans-serif bold;
-  font-size: 36px;
-  font-size: 3.6rem;
   margin: 0;
-  display: inline-block;
-  float: left;
-  width: 40%; }
+  width: 100%;
+  text-align: left;
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .text-title-free-courses {
+      text-align: center; } }
+  @media (min-width: 480px) {
+    .text-title-free-courses {
+      text-align: center; } }
+  @media (min-width: 900px) {
+    .text-title-free-courses {
+      text-align: center; } }
+  @media (min-width: 1024px) {
+    .text-title-free-courses {
+      text-align: left; } }
+  @media (min-width: 1280px) {
+    .text-title-free-courses {
+      text-align: left; } }
 
 .content-text-course {
-  float: right;
-  width: 50%; }
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .content-text-course {
+      width: 100%;
+      display: block; } }
+  @media (min-width: 480px) {
+    .content-text-course {
+      width: 100%;
+      display: block; } }
+  @media (min-width: 900px) {
+    .content-text-course {
+      width: 90%;
+      display: block;
+      margin: 0 auto; } }
+  @media (min-width: 1024px) {
+    .content-text-course {
+      width: 50%;
+      float: right; } }
+  @media (min-width: 1280px) {
+    .content-text-course {
+      width: 50%;
+      float: right; } }
 
 .text-course-description {
-  color: #757575;
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
+  color: #757575;
+  font-family: "Open Sans", Arial, sans-serif;
   margin: 0; }
 
 /* #Opacity
@@ -595,17 +819,58 @@ header {
   background-size: cover;
   background-position: right;
   float: left;
-  height: 315px; }
+  height: 315px;
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .images-free-courses {
+      display: none; } }
+  @media (min-width: 480px) {
+    .images-free-courses {
+      display: none; } }
+  @media (min-width: 900px) {
+    .images-free-courses {
+      display: none; } }
+  @media (min-width: 1024px) {
+    .images-free-courses {
+      display: inline-block; } }
+  @media (min-width: 1280px) {
+    .images-free-courses {
+      display: inline-block; } }
 
 .container-list-courses {
-  float: right;
-  width: 50%; }
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .container-list-courses {
+      width: 100%; } }
+  @media (min-width: 480px) {
+    .container-list-courses {
+      width: 100%; } }
+  @media (min-width: 900px) {
+    .container-list-courses {
+      width: 90%;
+      margin: 0 auto; } }
+  @media (min-width: 1024px) {
+    .container-list-courses {
+      width: 50%;
+      float: right; } }
+  @media (min-width: 1280px) {
+    .container-list-courses {
+      width: 50%;
+      float: right; } }
 
 .title-list-courses {
-  color: #292929;
-  font-family: "Montserrat", Arial, sans-serif bold;
   font-size: 24px;
   font-size: 2.4rem;
+  color: #292929;
+  font-family: "Montserrat", Arial, sans-serif bold;
   margin: 0; }
 
 .list-free-courses {
@@ -621,19 +886,38 @@ header {
     border-bottom: none; }
 
 .title-course-item {
+  font-size: 16px;
+  font-size: 1.6rem;
   color: #292929;
   display: inline-block;
   font-family: "Montserrat", Arial, sans-serif bold;
-  font-size: 16px;
-  font-size: 1.6rem;
   margin: 0;
-  width: 60%; }
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .title-course-item {
+      width: 100%; } }
+  @media (min-width: 480px) {
+    .title-course-item {
+      width: 100%; } }
+  @media (min-width: 900px) {
+    .title-course-item {
+      width: 100%; } }
+  @media (min-width: 1024px) {
+    .title-course-item {
+      width: 60%; } }
+  @media (min-width: 1280px) {
+    .title-course-item {
+      width: 60%; } }
 
 .date-course-item {
-  color: #757575;
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 13px;
   font-size: 1.3rem;
+  color: #757575;
+  font-family: "Open Sans", Arial, sans-serif;
   margin-bottom: 0;
   margin-top: 6px; }
 
@@ -659,7 +943,31 @@ header {
   font-size: 15px;
   font-size: 1.5rem;
   color: #00c9ed;
-  padding: 6px 12px; }
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .btn {
+      display: block;
+      padding: 6px 0px; } }
+  @media (min-width: 480px) {
+    .btn {
+      display: block;
+      padding: 6px 0px; } }
+  @media (min-width: 900px) {
+    .btn {
+      display: block;
+      padding: 6px 0px; } }
+  @media (min-width: 1024px) {
+    .btn {
+      display: inline-block;
+      padding: 6px 12px; } }
+  @media (min-width: 1280px) {
+    .btn {
+      display: inline-block;
+      padding: 6px 12px; } }
 
 .btn-arrow-course {
   margin-right: 6px;
@@ -668,16 +976,40 @@ header {
 /* #Read More About The Course
    ========================================================================== */
 .read-more {
+  font-size: 14px;
+  font-size: 1.4rem;
   background-color: #00c9ed;
   border-radius: 6px;
   color: #fff;
-  font-size: 14px;
-  font-size: 1.4rem;
   padding: 6px 10px;
-  position: absolute;
-  right: 0;
-  top: 23px;
-  text-decoration: none; }
+  text-decoration: none;
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .read-more {
+      display: inline-block;
+      margin-top: 10px; } }
+  @media (min-width: 480px) {
+    .read-more {
+      display: inline-block;
+      margin-top: 10px; } }
+  @media (min-width: 900px) {
+    .read-more {
+      display: inline-block;
+      margin-top: 10px; } }
+  @media (min-width: 1024px) {
+    .read-more {
+      position: absolute;
+      right: 0;
+      top: 23px; } }
+  @media (min-width: 1280px) {
+    .read-more {
+      position: absolute;
+      right: 0;
+      top: 23px; } }
   .read-more:hover {
     background-color: #00acea;
     color: #fff;
@@ -692,36 +1024,36 @@ header {
    ======================= */
 .aliados {
   background: #ececec; }
-  .aliados h2 {
-    float: left; }
   .aliados ul {
     padding-left: 0; }
 
-@media (min-width: 768px) {
-  .section-title-allies {
-    margin-top: 0; } }
-@media (min-width: 1024px) {
-  .section-title-allies {
-    margin-top: 0; } }
-
-.info-section {
-  float: right;
-  width: 50%; }
-  @media (min-width: 768px) {
-    .info-section {
-      font-size: 16px;
-      font-size: 1.6rem; } }
+.section-title-allies {
+  margin-top: 0;
+  width: 100%;
+  font-family: "Montserrat", Arial, sans-serif bold;
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .section-title-allies {
+      text-align: center; } }
+  @media (min-width: 480px) {
+    .section-title-allies {
+      text-align: center; } }
+  @media (min-width: 900px) {
+    .section-title-allies {
+      text-align: center; } }
   @media (min-width: 1024px) {
-    .info-section {
-      font-size: 18px;
-      font-size: 1.8rem; } }
+    .section-title-allies {
+      text-align: left; } }
+  @media (min-width: 1280px) {
+    .section-title-allies {
+      text-align: left; } }
 
-@media (min-width: 768px) {
-  .info-section p {
-    margin: 0; } }
-@media (min-width: 1024px) {
-  .info-section p {
-    margin: 0; } }
+.info-section p {
+  margin: 0; }
 
 .logos-aliados {
   clear: both;
@@ -732,7 +1064,7 @@ header {
     margin-top: 60px;
     text-indent: -9999px;
     float: left; }
-    @media (min-width: 768px) {
+    @media (min-width: 900px) {
       .logos-aliados li {
         width: 33%; } }
     @media (min-width: 1024px) {
