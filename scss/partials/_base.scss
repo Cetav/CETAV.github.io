@@ -3,25 +3,25 @@
    ======================= */
 
 html {
-  	box-sizing: border-box;
-  	font-size: 62.5%;
+    box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 *, *:before, *:after {
-  	box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body, 
 html {
-	box-sizing:border-box;
-	color: $color2;
-	font-family: $body;
-	margin: 0;
-	padding: 0;
+    box-sizing: border-box;
+    color: $color2;
+    font-family: $body;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-  	text-decoration: none;
+    text-decoration: none;
 }
 
 h1,
@@ -30,112 +30,53 @@ h3,
 h4, 
 h5, 
 h6 {
-	font-family: $titles;
-	margin: 0;
-	padding: 0;
+    font-family: $titles;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-	@include font-size(70);
+    @include font-size(70);
 }
 
 h2 {
-	@include font-size(48);
+    @include font-size(48);
 }
 
 h3 {
-	@include font-size(32);
+    @include font-size(32);
 }
 
 h4 {
-	@include font-size(24);
+    @include font-size(24);
 }
 
 h5 {
-	@include font-size(16);
+    @include font-size(16);
 }
 
 h6 {
-	@include font-size(12);
+    @include font-size(12);
 }
 
 nav ul li {
-	display: inline-block;
-	margin-right: 20px
+    display: inline-block;
+    margin-right: 20px
 }
 
 
 nav ul li:last-child {
-	margin-right: 0;
+    margin-right: 0;
 }
 
 ul li {
-	list-style: none;
+    list-style: none;
 }
 
 section {
-	padding: 70px 0;
+    padding: 70px 0;
 }
 
-/* RS ICONS
-   ========================================================================== */
-.icons-rs li {
-	margin-right: 15px;
-}
 
-.icons-rs li a {
-	&:hover {
-		border-bottom: none;
-	}
-}
-.icon-rs {
-	fill: #fff;
-	text-decoration: none;
-}
 
-.facebook-icon {
-	height: 40px; 
-	margin-top: 20px;
-	width: 40px;
-	&:hover .icon-rs {
-		cursor: pointer;
-		fill: #4966a7;
-	}
-}
-
-.vimeo-icon {
-	height: 40px; 
-	width: 40px;
-	&:hover .icon-rs {
-		cursor: pointer;
-		fill: #17b3e8;
-	}
-}
-
-.max-content {
-	margin: 0 auto;
-	max-width: $content;
-	overflow: auto;
-	padding: 0 5px;
-    /* Custom, iPhone Retina */ 
-     @media (min-width : 320px) {
-        max-width: 300px;
-    }
-    /* Extra Small Devices, Phones */ 
-    @media ( min-width : 480px ) {
-    	max-width: 400px;
-    }
-    /* Small Devices, Tablets */
-    @media ( min-width : 768px ) {
-    	max-width: 730px;
-    }
-    /* Medium Devices, Desktops */
-    @media ( min-width : 1024px ) {
-    	max-width: 960px;
-    }
-	/* Large Devices, Wide Screens */
-     @media (min-width : 1280px) {
-    	max-width: $content;
-    }
-}
 

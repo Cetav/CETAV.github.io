@@ -1,5 +1,9 @@
 /* ==|====================
    Partials/Blocks
+
+   -------INDEX--------
+   #Block initial text
+   #Courses
    ======================= */
 
 .section-title {  
@@ -32,6 +36,32 @@
     }
 }
 
+.max-content {
+    margin: 0 auto;
+    max-width: $content;
+    overflow: auto;
+    padding: 0 5px;
+    /* Custom, iPhone Retina */ 
+     @media (min-width : 320px) {
+        max-width: 300px;
+    }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+        max-width: 400px;
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 768px ) {
+        max-width: 730px;
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width : 1024px ) {
+        max-width: 960px;
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
+        max-width: $content;
+    }
+}
 
 /* Block initial text
    ========================================================================== */

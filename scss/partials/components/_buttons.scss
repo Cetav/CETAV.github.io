@@ -5,6 +5,7 @@
    #Style of the buttons in free courses
    #View All Courses
    #Read More About The Course
+   #RS ICONS
    ======================= */
 
 /* #Style of the buttons in free courses
@@ -12,6 +13,7 @@
 .btn-course {
     font-family: $titles;
 }
+
 /* #View All Courses
    ========================================================================== */
 .btn {
@@ -19,28 +21,28 @@
     color: $blue-light;
     /* Custom, iPhone Retina */ 
     @media (min-width : 320px) {
-      display: block;
-      padding: 6px 0px;
+        display: block;
+        padding: 6px 0px;
     }
     /* Extra Small Devices, Phones */ 
     @media ( min-width : 480px ) {
-      display: block;
-      padding: 6px 0px;
+        display: block;
+        padding: 6px 0px;
     }
     /* Small Devices, Tablets */
     @media ( min-width : 900px ) {
-      display: block;
-      padding: 6px 0px;
+        display: block;
+        padding: 6px 0px;
     }
     /* Medium Devices, Desktops */
     @media ( min-width : 1024px ) {
-      display: inline-block;
-      padding: 6px 12px;
+        display: inline-block;
+        padding: 6px 12px;
     }
     /* Large Devices, Wide Screens */
      @media (min-width : 1280px) {
-      display: inline-block;
-      padding: 6px 12px;
+        display: inline-block;
+        padding: 6px 12px;
     }
 }
 
@@ -48,6 +50,7 @@
     margin-right: 6px;
     width: 9px;
 }
+
 /* #Read More About The Course
    ========================================================================== */
 .read-more {
@@ -92,5 +95,40 @@
         -moz-transition: all 0.3s;
         -o-transition: all 0.3s;
         transition: all 0.3s;
+    }
+}
+
+/* RS ICONS
+   ========================================================================== */
+.icons-rs li {
+    margin-right: 15px;
+}
+
+.icons-rs li a {
+    &:hover {
+        border-bottom: none;
+    }
+}
+.icon-rs {
+    fill: #fff;
+    text-decoration: none;
+}
+
+.facebook-icon {
+    height: 40px; 
+    margin-top: 20px;
+    width: 40px;
+    &:hover .icon-rs {
+        cursor: pointer;
+        fill: #4966a7;
+    }
+}
+
+.vimeo-icon {
+    height: 40px; 
+    width: 40px;
+    &:hover .icon-rs {
+        cursor: pointer;
+        fill: #17b3e8;
     }
 }

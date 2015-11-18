@@ -3,15 +3,15 @@
    ======================= */
 
 .aliados {
-	background: $sections-body;
-  	ul {
-	 	padding-left: 0;
-  	}
+    background: $sections-body;
+    ul {
+        padding-left: 0;
+    }
 }
 
 .section-title-allies {
-	margin-top: 0;
-	width: 100%;
+    margin-top: 0;
+    width: 100%;
     font-family: $titles;
     /* Custom, iPhone Retina */ 
     @media (min-width : 320px) {
@@ -38,83 +38,83 @@
 
 
 .info-section p {
-	margin: 0;
+    margin: 0;
 }
 
 .logos-aliados {
-	clear: both;
-	.logo-allie {
-		display: inline-block;	
-		float: left;
-	    /* Custom, iPhone Retina */ 
-	    @media (min-width : 320px) {
-			width: 50%;
-	        height: 60px;
-	        margin-top: 50px;  
-	    }
-	    /* Extra Small Devices, Phones */ 
-	    @media ( min-width : 480px ) {
-	        width: 50%;
-	        height: 70px;
-	        margin-top: 50px;
-	    }
-	    /* Small Devices, Tablets */
-	    @media ( min-width : 900px ) {
-	        width: 33%;
-	        height: 70px;
-			margin-top: 60px;
-	    }
-	    /* Medium Devices, Desktops */
-	    @media ( min-width : 1024px ) {
-	        width: 24.5%;
-			height: 80px;
-			margin-top: 60px;
-	    }
-	    /* Large Devices, Wide Screens */
-	     @media (min-width : 1280px) {
-	        width: 24.5%;
-			height: 90px;
-			margin-top: 60px;
-	    }
-	}
+    clear: both;
+    .logo-allie {
+        display: inline-block;  
+        float: left;
+        /* Custom, iPhone Retina */ 
+        @media (min-width : 320px) {
+            width: 50%;
+            height: 60px;
+            margin-top: 50px;  
+        }
+        /* Extra Small Devices, Phones */ 
+        @media ( min-width : 480px ) {
+            width: 50%;
+            height: 70px;
+            margin-top: 50px;
+        }
+        /* Small Devices, Tablets */
+        @media ( min-width : 900px ) {
+            width: 33%;
+            height: 70px;
+            margin-top: 60px;
+        }
+        /* Medium Devices, Desktops */
+        @media ( min-width : 1024px ) {
+            width: 24.5%;
+            height: 80px;
+            margin-top: 60px;
+        }
+        /* Large Devices, Wide Screens */
+         @media (min-width : 1280px) {
+            width: 24.5%;
+            height: 90px;
+            margin-top: 60px;
+        }
+    }
 }
 
 .logoAnimacion {
-	background: url(../img/logos/logo-animation.png) no-repeat center;
-	background-size: contain;
+    background: url(../img/logos/logo-animation.png) no-repeat center;
+    background-size: contain;
 }
 
 .logoCamtic {
-	background: url(../img/logos/logo-camtic.png) no-repeat center;
-	background-size: contain;
+    background: url(../img/logos/logo-camtic.png) no-repeat center;
+    background-size: contain;
 }
 
 .logoCenfotec {
-	background: url(../img/logos/logo-cenfotec.png) no-repeat center;
-	background-size: contain;
+    background: url(../img/logos/logo-cenfotec.png) no-repeat center;
+    background-size: contain;
 }
 
 .logoIna {
-	background: url(../img/logos/logo-ina.png) no-repeat center;
-	background-size: contain;
+    background: url(../img/logos/logo-ina.png) no-repeat center;
+    background-size: contain;
 }
 
 .logoEmpleate {
-	background: url(../img/logos/logo-empleate.png) no-repeat center;
-	background-size: contain;
+    background: url(../img/logos/logo-empleate.png) no-repeat center;
+    background-size: contain;
 }
 
 .logoMtss {
-	background: url(../img/logos/logo-mtss.png) no-repeat center;
-	background-size: contain;
+    background: url(../img/logos/logo-mtss.png) no-repeat center;
+    background-size: contain;
 }
 
 .logoGeek {
-	background: url(../img/logos/logo-geek.png) no-repeat center;
-	background-size: contain;
+    background: url(../img/logos/logo-geek.png) no-repeat center;
+    background-size: contain;
 }
 
 .logoComunidad {
-	background: url(../img/logos/logo-comunidad.png) no-repeat center;
-	background-size: contain;
+    background: url(../img/logos/logo-comunidad.png) no-repeat center;
+    background-size: contain;
 }

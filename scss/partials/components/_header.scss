@@ -1,80 +1,84 @@
 /* ==|====================
    Partials/Components/Header
+
+   -------INDEX--------
+   #Content Header
    ======================= */
 
 header {
-	background: url(../img/prueba.jpg) no-repeat center;
-	background-attachment: fixed;
- 	background-size: cover;
-	height: 700px;
+    background: url(../img/prueba.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
 
-	@media (min-width: 1200px) {
-		background-color: #000;
-		background-size: 1200px;
-	}
+    /* Large Devices, Wide Screens */
+    @media (min-width: 1280px) {
+        background-color: #000;
+        background-size: 1200px;
+    }
 }
 
 .logo-cetav {
-	float: left;
-	background: url(../img/logos/logo-cetav.png) no-repeat center;
-	background-size: contain;
-	height: auto;
-	margin-top: -8px;
-	text-indent: -9999px;
-	width: 100px;
+    float: left;
+    background: url(../img/logos/logo-cetav.png) no-repeat center;
+    background-size: contain;
+    height: auto;
+    margin-top: -8px;
+    text-indent: -9999px;
+    width: 100px;
 }
 
 .top-header {
-  	background: $color4;
-	height: 70px;
-  	width: 100%;
-  	z-index: 5;
+    background: $color4;
+    height: 70px;
+    width: 100%;
+    z-index: 5;
     box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2);
 }
 
 /* Content Header
    ========================================================================== */
 .content-header{
-	p:first-child{
-		color: $color3;
-		margin:0 0 15px;
-	}
+    p:first-child{
+        color: $color3;
+        margin: 0 0 15px;
+    }
 
-	strong{
-		color: $color1;
-	}
+    strong{
+        color: $color1;
+    }
 
     /* Custom, iPhone Retina */ 
     @media (min-width : 320px) {
-    	padding-top: 14.5%;
+        padding-top: 14.5%;
     }
     /* Extra Small Devices, Phones */ 
     @media ( min-width : 480px ) {
-    	padding-top: 24.5%;
+        padding-top: 24.5%;
     }
     /* Small Devices, Tablets */
     @media ( min-width : 900px ) {
-    	padding-top: 17.5%;
+        padding-top: 17.5%;
     }
     /* Medium Devices, Desktops */
     @media ( min-width : 1024px ) {
-    	padding-top: 14.5%;
+        padding-top: 14.5%;
     }
     /* Large Devices, Wide Screens */
      @media (min-width : 1280px) {
-     	padding-top: 9.5%;
+        padding-top: 9.5%;
     }
 }
 
 .type-wrap{
-	@include font-size(48);
-	font-family: $titles;
-	margin:10px auto;
-	padding:20px;
-	text-align: center;
+    @include font-size(48);
+    font-family: $titles;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
 }
 
 .wrap{
-	max-width: 600px;
-	margin:150px auto;
+    max-width: 600px;
+    margin: 150px auto;
 }
