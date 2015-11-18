@@ -1098,8 +1098,6 @@ header {
   clear: both; }
   .logos-aliados .logo-allie {
     display: inline-block;
-    height: 90px;
-    margin-top: 60px;
     float: left;
     /* Custom, iPhone Retina */
     /* Extra Small Devices, Phones */
@@ -1118,13 +1116,19 @@ header {
         margin-top: 50px; } }
     @media (min-width: 900px) {
       .logos-aliados .logo-allie {
-        width: 33%; } }
+        width: 33%;
+        height: 70px;
+        margin-top: 60px; } }
     @media (min-width: 1024px) {
       .logos-aliados .logo-allie {
-        width: 24.5%; } }
+        width: 24.5%;
+        height: 80px;
+        margin-top: 60px; } }
     @media (min-width: 1280px) {
       .logos-aliados .logo-allie {
-        width: 24.5%; } }
+        width: 24.5%;
+        height: 90px;
+        margin-top: 60px; } }
 
 .logoAnimacion {
   background: url(../img/logos/logo-animation.png) no-repeat center;

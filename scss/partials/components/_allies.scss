@@ -44,9 +44,7 @@
 .logos-aliados {
 	clear: both;
 	.logo-allie {
-		display: inline-block;
-		height: 90px;
-		margin-top: 60px;	
+		display: inline-block;	
 		float: left;
 	    /* Custom, iPhone Retina */ 
 	    @media (min-width : 320px) {
@@ -63,14 +61,20 @@
 	    /* Small Devices, Tablets */
 	    @media ( min-width : 900px ) {
 	        width: 33%;
+	        height: 70px;
+			margin-top: 60px;
 	    }
 	    /* Medium Devices, Desktops */
 	    @media ( min-width : 1024px ) {
 	        width: 24.5%;
+			height: 80px;
+			margin-top: 60px;
 	    }
 	    /* Large Devices, Wide Screens */
 	     @media (min-width : 1280px) {
 	        width: 24.5%;
+			height: 90px;
+			margin-top: 60px;
 	    }
 	}
 }
