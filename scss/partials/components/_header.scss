@@ -35,8 +35,6 @@ header {
 /* Content Header
    ========================================================================== */
 .content-header{
-	padding-top: 14.5%;
-
 	p:first-child{
 		color: $color3;
 		margin:0 0 15px;
@@ -45,6 +43,27 @@ header {
 	strong{
 		color: $color1;
 	}
+
+    /* Custom, iPhone Retina */ 
+    @media (min-width : 320px) {
+    	padding-top: 14.5%;
+    }
+    /* Extra Small Devices, Phones */ 
+    @media ( min-width : 480px ) {
+    	padding-top: 24.5%;
+    }
+    /* Small Devices, Tablets */
+    @media ( min-width : 900px ) {
+    	padding-top: 17.5%;
+    }
+    /* Medium Devices, Desktops */
+    @media ( min-width : 1024px ) {
+    	padding-top: 14.5%;
+    }
+    /* Large Devices, Wide Screens */
+     @media (min-width : 1280px) {
+     	padding-top: 9.5%;
+    }
 }
 
 .type-wrap{

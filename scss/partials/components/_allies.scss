@@ -43,17 +43,33 @@
 
 .logos-aliados {
 	clear: both;
-	margin-top: 60px;
-	li {
+	.logo-allie {
 		display: inline-block;
 		height: 90px;
-		margin-top: 60px;
-		text-indent: -9999px;	
+		margin-top: 60px;	
 		float: left;
+	    /* Custom, iPhone Retina */ 
+	    @media (min-width : 320px) {
+			width: 50%;
+	        height: 60px;
+	        margin-top: 50px;  
+	    }
+	    /* Extra Small Devices, Phones */ 
+	    @media ( min-width : 480px ) {
+	        width: 50%;
+	        height: 70px;
+	        margin-top: 50px;
+	    }
+	    /* Small Devices, Tablets */
 	    @media ( min-width : 900px ) {
 	        width: 33%;
 	    }
+	    /* Medium Devices, Desktops */
 	    @media ( min-width : 1024px ) {
+	        width: 24.5%;
+	    }
+	    /* Large Devices, Wide Screens */
+	     @media (min-width : 1280px) {
 	        width: 24.5%;
 	    }
 	}

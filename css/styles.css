@@ -537,12 +537,31 @@ header {
 /* Content Header
    ========================================================================== */
 .content-header {
-  padding-top: 14.5%; }
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
   .content-header p:first-child {
     color: #fff;
     margin: 0 0 15px; }
   .content-header strong {
     color: #ff8f00; }
+  @media (min-width: 320px) {
+    .content-header {
+      padding-top: 14.5%; } }
+  @media (min-width: 480px) {
+    .content-header {
+      padding-top: 24.5%; } }
+  @media (min-width: 900px) {
+    .content-header {
+      padding-top: 17.5%; } }
+  @media (min-width: 1024px) {
+    .content-header {
+      padding-top: 14.5%; } }
+  @media (min-width: 1280px) {
+    .content-header {
+      padding-top: 9.5%; } }
 
 .type-wrap {
   font-size: 48px;
@@ -563,7 +582,27 @@ header {
   display: inline-block;
   float: right;
   margin-top: 19px;
-  width: 80%; }
+  width: 80%;
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media (min-width: 320px) {
+    .nav-content {
+      display: none; } }
+  @media (min-width: 480px) {
+    .nav-content {
+      display: none; } }
+  @media (min-width: 900px) {
+    .nav-content {
+      display: none; } }
+  @media (min-width: 1024px) {
+    .nav-content {
+      display: block; } }
+  @media (min-width: 1280px) {
+    .nav-content {
+      display: block; } }
 
 .main-nav {
   font-size: 15px;
@@ -1056,19 +1095,35 @@ header {
   margin: 0; }
 
 .logos-aliados {
-  clear: both;
-  margin-top: 60px; }
-  .logos-aliados li {
+  clear: both; }
+  .logos-aliados .logo-allie {
     display: inline-block;
     height: 90px;
     margin-top: 60px;
-    text-indent: -9999px;
-    float: left; }
+    float: left;
+    /* Custom, iPhone Retina */
+    /* Extra Small Devices, Phones */
+    /* Small Devices, Tablets */
+    /* Medium Devices, Desktops */
+    /* Large Devices, Wide Screens */ }
+    @media (min-width: 320px) {
+      .logos-aliados .logo-allie {
+        width: 50%;
+        height: 60px;
+        margin-top: 50px; } }
+    @media (min-width: 480px) {
+      .logos-aliados .logo-allie {
+        width: 50%;
+        height: 70px;
+        margin-top: 50px; } }
     @media (min-width: 900px) {
-      .logos-aliados li {
+      .logos-aliados .logo-allie {
         width: 33%; } }
     @media (min-width: 1024px) {
-      .logos-aliados li {
+      .logos-aliados .logo-allie {
+        width: 24.5%; } }
+    @media (min-width: 1280px) {
+      .logos-aliados .logo-allie {
         width: 24.5%; } }
 
 .logoAnimacion {
