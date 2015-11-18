@@ -54,18 +54,17 @@
 
 
 .main-nav ul li a {
+    color: $color3;
+    font-family: $titles;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    color: $color3;
-    font-family: $titles;
-  
 }
 
 .main-nav ul li:nth-child(2):after{
+    @include font-size(12);
     color:$color3;
     content: '\25bc';
-    @include font-size(12);
 }
   
 .main-nav li:hover .drop-down {
@@ -77,19 +76,18 @@
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    transition: all 0.3s ease;
 }
 
 
 .drop-down{
+    background: none;
     margin-top: 1px;
     padding: 20px 20px 20px 0;
     position: absolute;
-    text-align: left;
-    width:230px;
-    background: none;
     position: absolute;
+    text-align: left;
     visibility: hidden;
+    width: 230px;
     li{
         border-left:  3px solid transparent;
         display: block;
@@ -138,15 +136,19 @@
     padding: 10px;  
     position: absolute;
     right: 18%;
-    transition: width .4s all;
+    -webkit-transition: width 0.4s ease;
+    -moz-transition: width 0.4s ease;
+    -ms-transition: width 0.4s ease;
+    -o-transition: width 0.4s ease;
+    transition: width .4 ease;
     width: 0;
     z-index: 3;  
 }
 
 .searchBar:focus {
-    z-index: 1;
-    cursor: text;
     border: 1px solid $color3 !important;
+    cursor: text;
+    z-index: 1;
 }
 
 .search{
@@ -159,6 +161,10 @@
     margin-top: 5px;
     text-indent: -9999px;
     width: 18px;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -ms-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
     transition: opacity .4s ease;
 
     &:focus{
@@ -192,8 +198,8 @@
     padding: 10px 0;
     text-align: right;
     li a{
-        color: $color3;
         @include font-size(13);
+        color: $color3;
 
         &:hover{
             text-decoration: underline;

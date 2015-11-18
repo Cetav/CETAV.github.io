@@ -25,16 +25,16 @@ footer {
 }
 
 .btn-footer {
-    font-size: 14px;
-    text-decoration: none;
-    color: $color3;
     background-color: transparent;
-    height: 100%;
-    text-align: center;
-    padding: 12px 12px;
-    margin: 15px auto;
-    border: 1px solid $color3;
     border-radius: 3px;
+    border: 1px solid $color3;
+    color: $color3;
+    font-size: 14px;
+    height: 100%;
+    margin: 15px auto;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;

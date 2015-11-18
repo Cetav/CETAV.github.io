@@ -7,13 +7,13 @@
    ======================= */
 
 .section-title {  
+    color: $color1;
     display: block;
     font-family: $titles;
-    margin-top: 15px;
     line-height: 1.2;
-    width: 50%;
+    margin-top: 15px;
     text-align: left;
-    color: $color1;
+    width: 50%;
     /* Custom, iPhone Retina */ 
     @media (min-width : 320px) {
         @include font-size(24);
@@ -70,7 +70,7 @@
     height: auto;
 }
 
-.main-title {;
+.main-title {
     float: left;
     /* Custom, iPhone Retina */ 
     @media (min-width : 320px) {
@@ -131,25 +131,25 @@
 }
 
 .title-intro {
-    width: 100%;
     @include font-size(48);
+    width: 100%;
 }
 
 .main-text {
     /* Custom, iPhone Retina */ 
     @media (min-width : 320px) {
-        width: 100%;
         display: block;
+        width: 100%;
     }
     /* Extra Small Devices, Phones */ 
     @media ( min-width : 480px ) {
-        width: 100%;
         display: block;
-    }
+        }
+        width: 100%;    
     /* Small Devices, Tablets */
     @media ( min-width : 900px ) {
-        width: 90%;
         display: block;
+        width: 90%;
         margin: 0 auto;
     }
     /* Medium Devices, Desktops */
@@ -170,44 +170,44 @@
 .main-text p {
     /* Custom, iPhone Retina */ 
     @media (min-width : 320px) {
-        margin-top: 0;
         @include font-size(16);
+        margin-top: 0;        
     }
     /* Extra Small Devices, Phones */ 
     @media ( min-width : 480px ) {
-        margin-top: 0;
         @include font-size(16);
+        margin-top: 0;        
     }
     /* Small Devices, Tablets */
     @media ( min-width : 900px ) {
-        margin-top: 0;
         @include font-size(16);
+        margin-top: 0;        
     }
     /* Medium Devices, Desktops */
     @media ( min-width : 1024px ) {
-        margin-top: 10px;
         @include font-size(18);
+        margin-top: 10px;        
     }
     /* Large Devices, Wide Screens */
      @media (min-width : 1280px) {
-        margin-top: 10px;
         @include font-size(18);
+        margin-top: 10px;        
     }
 }
 
 .read-more-about {
-    color: $color2;
-    font-family: $body;
-    float: left;
-    border: 2px solid $color2;
+    @include font-size(14);
     border-radius: 6px;
+    border: 2px solid $color2;
+    color: $color2;
+    float: left;
+    font-family: $body;
     padding: 5px 8px;
     -webkit-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    @include font-size(14);
     @media ( min-width: 900px ) {
         margin-top: 5px;
     }
@@ -217,16 +217,16 @@
 }
 
 .read-more-about:hover {
-    color: white;
     background-color: $color2;
+    color: white;
 }
 
 
 /* Courses
    ========================================================================== */
 .section-courses {
-    padding: 0;
     overflow: hidden;
+    padding: 0;
 }
 
 .wrapper {
@@ -243,18 +243,18 @@
 /*    border: 1px solid #dedede;*/
     /* Custom, iPhone Retina */ 
     @media (min-width : 320px) {
-        width: 100%;
         display: block;
+        width: 100%;
     }
     /* Extra Small Devices, Phones */ 
     @media ( min-width : 480px ) {
-        width: 100%;
         display: block;
+        width: 100%;
     }
     /* Small Devices, Tablets */
     @media ( min-width : 900px ) {
-        width: 100%;
         display: block;
+        width: 100%;
     }
     /* Medium Devices, Desktops */
     @media ( min-width : 1024px ) {
@@ -267,18 +267,18 @@
 }
 
 .container-info {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     display: block;
+    height: 100%;
     padding: 30px 15px;
     position: absolute;
+    width: 100%;
 }
 
 .container-title {
-    position: relative;
     padding: 0;
+    position: relative;
     top: 46%;
     transform: translateY(-50%);
 }
@@ -288,9 +288,9 @@
 }
 
 .title-course {
-    margin-bottom: 40px;
-    font-weight: bold;
     color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
     text-align: center;
     /* Custom, iPhone Retina */ 
     @media (min-width : 320px) {
@@ -342,12 +342,12 @@
 }
 
 .view-more {
-    padding: 15px 22px;
     border-radius: 3px;
-    font-size: 16px;
     color: white;
-    margin: 0 auto;
+    font-size: 16px;
     font-weight: bold;
+    margin: 0 auto;
+    padding: 15px 22px;
     text-transform: uppercase;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -364,9 +364,9 @@
 
 .view-more-animation {
     background-color: #cc6220;
+    color: white;
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
-    color: white;
 }
 
 /**
@@ -378,9 +378,9 @@
 
 .view-more-web {
     background-color: #922716;
+    color: white;
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
-    color: white;
 }
 
 /**
@@ -392,9 +392,7 @@
 
 .view-more-post {
     background-color: #819535;
+    color: white;
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
-    color: white;
 }
-
-

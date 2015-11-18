@@ -31,13 +31,13 @@
    #Courses
    ======================= */
 .section-title {
+  color: #ff8f00;
   display: block;
   font-family: "Montserrat", Arial, sans-serif bold;
-  margin-top: 15px;
   line-height: 1.2;
-  width: 50%;
+  margin-top: 15px;
   text-align: left;
-  color: #ff8f00;
+  width: 50%;
   /* Custom, iPhone Retina */
   /* Extra Small Devices, Phones */
   /* Small Devices, Tablets */
@@ -155,28 +155,28 @@
       margin-top: 30px; } }
 
 .title-intro {
-  width: 100%;
   font-size: 48px;
-  font-size: 4.8rem; }
+  font-size: 4.8rem;
+  width: 100%; }
 
 .main-text {
   /* Custom, iPhone Retina */
   /* Extra Small Devices, Phones */
+  width: 100%;
   /* Small Devices, Tablets */
   /* Medium Devices, Desktops */
   /* Large Devices, Wide Screens */ }
   @media (min-width: 320px) {
     .main-text {
-      width: 100%;
-      display: block; } }
+      display: block;
+      width: 100%; } }
   @media (min-width: 480px) {
     .main-text {
-      width: 100%;
       display: block; } }
   @media (min-width: 900px) {
     .main-text {
-      width: 90%;
       display: block;
+      width: 90%;
       margin: 0 auto; } }
   @media (min-width: 1024px) {
     .main-text {
@@ -197,44 +197,44 @@
   /* Large Devices, Wide Screens */ }
   @media (min-width: 320px) {
     .main-text p {
-      margin-top: 0;
       font-size: 16px;
-      font-size: 1.6rem; } }
+      font-size: 1.6rem;
+      margin-top: 0; } }
   @media (min-width: 480px) {
     .main-text p {
-      margin-top: 0;
       font-size: 16px;
-      font-size: 1.6rem; } }
+      font-size: 1.6rem;
+      margin-top: 0; } }
   @media (min-width: 900px) {
     .main-text p {
-      margin-top: 0;
       font-size: 16px;
-      font-size: 1.6rem; } }
+      font-size: 1.6rem;
+      margin-top: 0; } }
   @media (min-width: 1024px) {
     .main-text p {
-      margin-top: 10px;
       font-size: 18px;
-      font-size: 1.8rem; } }
+      font-size: 1.8rem;
+      margin-top: 10px; } }
   @media (min-width: 1280px) {
     .main-text p {
-      margin-top: 10px;
       font-size: 18px;
-      font-size: 1.8rem; } }
+      font-size: 1.8rem;
+      margin-top: 10px; } }
 
 .read-more-about {
-  color: #848286;
-  font-family: "Open Sans", Arial, sans-serif;
-  float: left;
-  border: 2px solid #848286;
+  font-size: 14px;
+  font-size: 1.4rem;
   border-radius: 6px;
+  border: 2px solid #848286;
+  color: #848286;
+  float: left;
+  font-family: "Open Sans", Arial, sans-serif;
   padding: 5px 8px;
   -webkit-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
-  transition: all 0.3s;
-  font-size: 14px;
-  font-size: 1.4rem; }
+  transition: all 0.3s; }
   @media (min-width: 900px) {
     .read-more-about {
       margin-top: 5px; } }
@@ -243,14 +243,14 @@
       margin-top: 5px; } }
 
 .read-more-about:hover {
-  color: white;
-  background-color: #848286; }
+  background-color: #848286;
+  color: white; }
 
 /* Courses
    ========================================================================== */
 .section-courses {
-  padding: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 0; }
 
 .wrapper {
   max-width: 1000px;
@@ -270,16 +270,16 @@
   /* Large Devices, Wide Screens */ }
   @media (min-width: 320px) {
     .container-card {
-      width: 100%;
-      display: block; } }
+      display: block;
+      width: 100%; } }
   @media (min-width: 480px) {
     .container-card {
-      width: 100%;
-      display: block; } }
+      display: block;
+      width: 100%; } }
   @media (min-width: 900px) {
     .container-card {
-      width: 100%;
-      display: block; } }
+      display: block;
+      width: 100%; } }
   @media (min-width: 1024px) {
     .container-card {
       width: calc(100% / 3); } }
@@ -288,17 +288,17 @@
       width: calc(100% / 3); } }
 
 .container-info {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   display: block;
+  height: 100%;
   padding: 30px 15px;
-  position: absolute; }
+  position: absolute;
+  width: 100%; }
 
 .container-title {
-  position: relative;
   padding: 0;
+  position: relative;
   top: 46%;
   transform: translateY(-50%); }
 
@@ -306,9 +306,9 @@
   margin-bottom: 20px; }
 
 .title-course {
-  margin-bottom: 40px;
-  font-weight: bold;
   color: white;
+  font-weight: bold;
+  margin-bottom: 40px;
   text-align: center;
   /* Custom, iPhone Retina */
   /* Extra Small Devices, Phones */
@@ -363,12 +363,12 @@
       display: block; } }
 
 .view-more {
-  padding: 15px 22px;
   border-radius: 3px;
-  font-size: 16px;
   color: white;
-  margin: 0 auto;
+  font-size: 16px;
   font-weight: bold;
+  margin: 0 auto;
+  padding: 15px 22px;
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -383,9 +383,9 @@
 
 .view-more-animation {
   background-color: #cc6220;
+  color: white;
   -webkit-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-  color: white; }
+  transition: all 0.6s ease; }
 
 /**
  * card web
@@ -395,9 +395,9 @@
 
 .view-more-web {
   background-color: #922716;
+  color: white;
   -webkit-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-  color: white; }
+  transition: all 0.6s ease; }
 
 /**
  * card post
@@ -407,9 +407,9 @@
 
 .view-more-post {
   background-color: #819535;
+  color: white;
   -webkit-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-  color: white; }
+  transition: all 0.6s ease; }
 
 /* ==|====================
    Partials/base
@@ -510,10 +510,10 @@ header {
 
 .top-header {
   background: #292929;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2);
   height: 70px;
   width: 100%;
-  z-index: 5;
-  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2); }
+  z-index: 5; }
 
 /* Content Header
    ========================================================================== */
@@ -606,17 +606,17 @@ header {
   transition: all 0.2s ease; }
 
 .main-nav ul li a {
+  color: #fff;
+  font-family: "Montserrat", Arial, sans-serif bold;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  color: #fff;
-  font-family: "Montserrat", Arial, sans-serif bold; }
+  box-sizing: border-box; }
 
 .main-nav ul li:nth-child(2):after {
-  color: #fff;
-  content: '\25bc';
   font-size: 12px;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  color: #fff;
+  content: '\25bc'; }
 
 .main-nav li:hover .drop-down {
   background-color: #292929;
@@ -626,18 +626,17 @@ header {
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
 .drop-down {
+  background: none;
   margin-top: 1px;
   padding: 20px 20px 20px 0;
   position: absolute;
-  text-align: left;
-  width: 230px;
-  background: none;
   position: absolute;
-  visibility: hidden; }
+  text-align: left;
+  visibility: hidden;
+  width: 230px; }
   .drop-down li {
     border-left: 3px solid transparent;
     display: block;
@@ -677,14 +676,18 @@ header {
   padding: 10px;
   position: absolute;
   right: 18%;
-  transition: width .4s all;
+  -webkit-transition: width 0.4s ease;
+  -moz-transition: width 0.4s ease;
+  -ms-transition: width 0.4s ease;
+  -o-transition: width 0.4s ease;
+  transition: width .4 ease;
   width: 0;
   z-index: 3; }
 
 .searchBar:focus {
-  z-index: 1;
+  border: 1px solid #fff !important;
   cursor: text;
-  border: 1px solid #fff !important; }
+  z-index: 1; }
 
 .search {
   background: url(../img/search1.png) no-repeat center;
@@ -696,6 +699,10 @@ header {
   margin-top: 5px;
   text-indent: -9999px;
   width: 18px;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
   transition: opacity .4s ease; }
   .search:focus {
     outline: none; }
@@ -723,9 +730,9 @@ header {
   padding: 10px 0;
   text-align: right; }
   .secundary-nav li a {
-    color: #fff;
     font-size: 13px;
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    color: #fff; }
     .secundary-nav li a:hover {
       text-decoration: underline; }
 
@@ -747,8 +754,8 @@ header {
    ========================================================================== */
 .free-courses {
   margin: 0 auto;
-  width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100%; }
 
 /* #Description course
    ========================================================================== */
@@ -790,25 +797,25 @@ header {
   /* Large Devices, Wide Screens */ }
   @media (min-width: 320px) {
     .content-text-course {
-      width: 100%;
-      display: block; } }
+      display: block;
+      width: 100%; } }
   @media (min-width: 480px) {
     .content-text-course {
-      width: 100%;
-      display: block; } }
+      display: block;
+      width: 100%; } }
   @media (min-width: 900px) {
     .content-text-course {
-      width: 90%;
       display: block;
+      width: 90%;
       margin: 0 auto; } }
   @media (min-width: 1024px) {
     .content-text-course {
-      width: 50%;
-      float: right; } }
+      float: right;
+      width: 50%; } }
   @media (min-width: 1280px) {
     .content-text-course {
-      width: 50%;
-      float: right; } }
+      float: right;
+      width: 50%; } }
 
 .text-course-description {
   font-size: 16px;
@@ -834,12 +841,12 @@ header {
   width: 100%; }
 
 .images-free-courses {
-  width: 45%;
   background-image: url(../img/course.JPG);
-  background-size: cover;
   background-position: right;
+  background-size: cover;
   float: left;
   height: 315px;
+  width: 45%;
   /* Custom, iPhone Retina */
   /* Extra Small Devices, Phones */
   /* Small Devices, Tablets */
@@ -894,14 +901,14 @@ header {
   margin: 0; }
 
 .list-free-courses {
-  padding: 0;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding: 0; }
 
 .course-item {
+  border-bottom: 1px solid #D6D6D6;
   list-style: none;
   padding: 17px 0;
-  position: relative;
-  border-bottom: 1px solid #D6D6D6; }
+  position: relative; }
   .course-item:last-child {
     border-bottom: none; }
 
@@ -1188,16 +1195,16 @@ footer {
     font-size: 1.4rem; }
 
 .btn-footer {
-  font-size: 14px;
-  text-decoration: none;
-  color: #fff;
   background-color: transparent;
-  height: 100%;
-  text-align: center;
-  padding: 12px 12px;
-  margin: 15px auto;
-  border: 1px solid #fff;
   border-radius: 3px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 14px;
+  height: 100%;
+  margin: 15px auto;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s; }
