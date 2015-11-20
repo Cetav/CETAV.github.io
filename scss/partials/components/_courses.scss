@@ -27,19 +27,7 @@
     font-family: $titles;
     margin: 0;
     width: 100%;
-    text-align: left;
-    /* Custom, iPhone Retina */ 
-    @media (min-width : 320px) {
-        text-align: center;
-    }
-    /* Extra Small Devices, Phones */ 
-    @media ( min-width : 480px ) {
-        text-align: center;
-    }
-    /* Small Devices, Tablets */
-    @media ( min-width : 900px ) {
-        text-align: center;
-    }
+    text-align: center;
     /* Medium Devices, Desktops */
     @media ( min-width : 1024px ) {
         text-align: left;
@@ -51,16 +39,8 @@
 }
 
 .content-text-course {
-    /* Custom, iPhone Retina */ 
-    @media (min-width : 320px) {    
-        display: block;
-        width: 100%;
-    }
-    /* Extra Small Devices, Phones */ 
-    @media ( min-width : 480px ) {    
-        display: block;
-        width: 100%;
-    }
+    display: block;
+    width: 100%;
     /* Small Devices, Tablets */
     @media ( min-width : 900px ) { 
         display: block;
@@ -112,18 +92,7 @@
     float: left;
     height: 315px;
     width: 45%;
-    /* Custom, iPhone Retina */ 
-    @media (min-width : 320px) {
-        display: none;
-    }
-    /* Extra Small Devices, Phones */ 
-    @media ( min-width : 480px ) {
-        display: none;
-    }
-    /* Small Devices, Tablets */
-    @media ( min-width : 900px ) {
-        display: none;
-    }
+    display: none; 
     /* Medium Devices, Desktops */
     @media ( min-width : 1024px ) {
         display: inline-block;
@@ -135,14 +104,7 @@
 }
 
 .container-list-courses {
-    /* Custom, iPhone Retina */ 
-    @media (min-width : 320px) {
-        width: 100%;
-    }
-    /* Extra Small Devices, Phones */ 
-    @media ( min-width : 480px ) {
-        width: 100%;
-    }
+    width: 100%;
     /* Small Devices, Tablets */
     @media ( min-width : 900px ) {
         width: 90%;
@@ -187,18 +149,7 @@
     display: inline-block;
     font-family: $titles;
     margin: 0;
-    /* Custom, iPhone Retina */ 
-    @media (min-width : 320px) {
-        width: 100%;
-    }
-    /* Extra Small Devices, Phones */ 
-    @media ( min-width : 480px ) {
-        width: 100%;
-    }
-    /* Small Devices, Tablets */
-    @media ( min-width : 900px ) {
-        width: 100%;
-    }
+    width: 100%;
     /* Medium Devices, Desktops */
     @media ( min-width : 1024px ) {
         width: 60%;

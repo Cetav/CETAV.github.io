@@ -19,21 +19,8 @@
 .btn {
     @include font-size(15);
     color: $blue-light;
-    /* Custom, iPhone Retina */ 
-    @media (min-width : 320px) {
-        display: block;
-        padding: 6px 0px;
-    }
-    /* Extra Small Devices, Phones */ 
-    @media ( min-width : 480px ) {
-        display: block;
-        padding: 6px 0px;
-    }
-    /* Small Devices, Tablets */
-    @media ( min-width : 900px ) {
-        display: block;
-        padding: 6px 0px;
-    }
+    display: block;
+    padding: 6px 0px;
     /* Medium Devices, Desktops */
     @media ( min-width : 1024px ) {
         display: inline-block;
@@ -60,21 +47,8 @@
     color: $white;
     padding: 6px 10px;
     text-decoration: none;
-    /* Custom, iPhone Retina */ 
-    @media (min-width : 320px) {
-        display: inline-block;
-        margin-top: 10px;
-    }
-    /* Extra Small Devices, Phones */ 
-    @media ( min-width : 480px ) {
-        display: inline-block;
-        margin-top: 10px;
-    }
-    /* Small Devices, Tablets */
-    @media ( min-width : 900px ) {
-        display: inline-block;
-        margin-top: 10px;
-    }
+    display: inline-block;
+    margin-top: 10px;
     /* Medium Devices, Desktops */
     @media ( min-width : 1024px ) {
         position: absolute;
